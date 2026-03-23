@@ -1,0 +1,85 @@
+{
+  "account": {
+    "mode": "dry_run",
+    "cash": 105990.95,
+    "portfolio_value": 105990.95,
+    "buying_power": 105990.95,
+    "num_positions": 3,
+    "unrealized_pnl": 5990.95,
+    "unrealized_pnl_pct": 5.991
+  },
+  "positions": {
+    "AAPL": {
+      "ticker": "AAPL",
+      "qty": 5.913,
+      "avg_entry": 338.0662611627737,
+      "side": "short",
+      "current_price": 338.0662611627737,
+      "stop_loss": 354.1962,
+      "take_profit": 306.3138,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "opened_at": "2026-03-19 19:07:20.146777",
+      "confidence": 0.8277
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "qty": 2.2711,
+      "avg_entry": 880.1813137129585,
+      "side": "short",
+      "current_price": 880.1813137129585,
+      "stop_loss": 913.2774,
+      "take_profit": 815.3102,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "opened_at": "2026-03-19 19:07:20.148951",
+      "confidence": 0.95
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "qty": 3.8507,
+      "avg_entry": 519.1219975749754,
+      "side": "short",
+      "current_price": 519.1219975749754,
+      "stop_loss": 541.9453,
+      "take_profit": 474.2544,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "opened_at": "2026-03-19 19:07:20.151418",
+      "confidence": 0.8951
+    }
+  },
+  "trade_log": [
+    {
+      "ts": "2026-03-19 19:07:20.146788",
+      "ticker": "AAPL",
+      "side": "sell",
+      "qty": 5.913,
+      "fill_price": 338.0662611627737,
+      "commission": 1.999,
+      "tag": "entry",
+      "cash_after": 101996.99
+    },
+    {
+      "ts": "2026-03-19 19:07:20.148958",
+      "ticker": "NVDA",
+      "side": "sell",
+      "qty": 2.2711,
+      "fill_price": 880.1813137129585,
+      "commission": 1.999,
+      "tag": "entry",
+      "cash_after": 103993.97
+    },
+    {
+      "ts": "2026-03-19 19:07:20.151439",
+      "ticker": "MSFT",
+      "side": "sell",
+      "qty": 3.8507,
+      "fill_price": 519.1219975749754,
+      "commission": 1.999,
+      "tag": "entry",
+      "cash_after": 105990.95
+    }
+  ],
+  "saved_at": "2026-03-19 19:07:20.162100"
+}

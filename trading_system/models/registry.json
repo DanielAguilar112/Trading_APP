@@ -1,0 +1,127 @@
+{
+  "AAPL": {
+    "last_trained": "2026-03-23T15:14:18.445173",
+    "num_bars": 301,
+    "metrics": {
+      "xgboost": {
+        "accuracy": 0.444,
+        "precision": 0.4909,
+        "recall": 0.5956,
+        "auc": 0.448
+      },
+      "lstm": {
+        "accuracy": 0.4174,
+        "precision": 0.4375,
+        "recall": 0.2823,
+        "auc": 0.4092
+      },
+      "logreg": {
+        "accuracy": 0.556,
+        "precision": 0.5514,
+        "recall": 0.9853,
+        "auc": 0.5359
+      }
+    },
+    "decay_alerts": {}
+  },
+  "NVDA": {
+    "last_trained": "2026-03-23T15:14:24.689390",
+    "num_bars": 301,
+    "metrics": {
+      "xgboost": {
+        "accuracy": 0.5,
+        "precision": 0.4932,
+        "recall": 0.5935,
+        "auc": 0.4959
+      },
+      "lstm": {
+        "accuracy": 0.5261,
+        "precision": 0.5347,
+        "recall": 0.4655,
+        "auc": 0.5445
+      },
+      "logreg": {
+        "accuracy": 0.456,
+        "precision": 0.4545,
+        "recall": 0.5285,
+        "auc": 0.4827
+      }
+    },
+    "decay_alerts": {}
+  },
+  "MSFT": {
+    "last_trained": "2026-03-23T15:14:30.944292",
+    "num_bars": 301,
+    "metrics": {
+      "xgboost": {
+        "accuracy": 0.496,
+        "precision": 0.508,
+        "recall": 0.7364,
+        "auc": 0.4947
+      },
+      "lstm": {
+        "accuracy": 0.4739,
+        "precision": 0.4815,
+        "recall": 0.3305,
+        "auc": 0.4548
+      },
+      "logreg": {
+        "accuracy": 0.468,
+        "precision": 0.4901,
+        "recall": 0.7674,
+        "auc": 0.4458
+      }
+    },
+    "decay_alerts": {}
+  },
+  "TSLA": {
+    "last_trained": "2026-03-23T15:14:36.748635",
+    "num_bars": 301,
+    "metrics": {
+      "xgboost": {
+        "accuracy": 0.548,
+        "precision": 0.6759,
+        "recall": 0.4834,
+        "auc": 0.5783
+      },
+      "lstm": {
+        "accuracy": 0.4565,
+        "precision": 0.5875,
+        "recall": 0.3381,
+        "auc": 0.4602
+      },
+      "logreg": {
+        "accuracy": 0.544,
+        "precision": 0.6121,
+        "recall": 0.6689,
+        "auc": 0.5056
+      }
+    },
+    "decay_alerts": {}
+  },
+  "SPY": {
+    "last_trained": "2026-03-23T15:14:43.914309",
+    "num_bars": 301,
+    "metrics": {
+      "xgboost": {
+        "accuracy": 0.492,
+        "precision": 0.5132,
+        "recall": 0.3023,
+        "auc": 0.5063
+      },
+      "lstm": {
+        "accuracy": 0.4609,
+        "precision": 0.4382,
+        "recall": 0.3451,
+        "auc": 0.4506
+      },
+      "logreg": {
+        "accuracy": 0.472,
+        "precision": 0.4828,
+        "recall": 0.3256,
+        "auc": 0.4989
+      }
+    },
+    "decay_alerts": {}
+  }
+}

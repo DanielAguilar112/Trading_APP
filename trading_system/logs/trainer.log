@@ -1,0 +1,1062 @@
+2026-03-20 00:11:13,691  INFO  
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Training AAPL
+2026-03-20 00:11:13,692  INFO  [AAPL] Fetching data â€¦
+2026-03-20 00:11:13,727  ERROR  Failed to get ticker 'AAPL' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:11:13,734  ERROR  
+1 Failed download:
+2026-03-20 00:11:13,734  ERROR  ['AAPL']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:11:13,741  ERROR  [AAPL] Not enough data â€” aborting
+2026-03-20 00:11:13,741  INFO  
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Training NVDA
+2026-03-20 00:11:13,741  INFO  [NVDA] Fetching data â€¦
+2026-03-20 00:11:13,754  ERROR  Failed to get ticker 'NVDA' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:11:13,765  ERROR  
+1 Failed download:
+2026-03-20 00:11:13,766  ERROR  ['NVDA']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:11:13,769  ERROR  [NVDA] Not enough data â€” aborting
+2026-03-20 00:12:28,940  INFO  
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Training AAPL
+2026-03-20 00:12:28,940  INFO  [AAPL] Fetching data â€¦
+2026-03-20 00:12:29,860  ERROR  Failed to get ticker 'AAPL' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:12:29,871  ERROR  
+1 Failed download:
+2026-03-20 00:12:29,871  ERROR  ['AAPL']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:12:29,939  INFO  [AAPL] Training ensemble on 301 bars â€¦
+2026-03-20 00:12:37,320  INFO  [AAPL] Training done in 7.4s
+2026-03-20 00:12:37,321  INFO  
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Training NVDA
+2026-03-20 00:12:37,321  INFO  [NVDA] Fetching data â€¦
+2026-03-20 00:12:37,332  ERROR  Failed to get ticker 'NVDA' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:12:37,345  ERROR  
+1 Failed download:
+2026-03-20 00:12:37,345  ERROR  ['NVDA']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:12:37,423  INFO  [NVDA] Training ensemble on 301 bars â€¦
+2026-03-20 00:12:45,218  INFO  [NVDA] Training done in 7.8s
+2026-03-20 00:12:45,219  INFO  
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Training TSLA
+2026-03-20 00:12:45,219  INFO  [TSLA] Fetching data â€¦
+2026-03-20 00:12:45,227  ERROR  Failed to get ticker 'TSLA' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:12:45,242  ERROR  
+1 Failed download:
+2026-03-20 00:12:45,242  ERROR  ['TSLA']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 00:12:45,327  INFO  [TSLA] Training ensemble on 301 bars â€¦
+2026-03-20 00:12:53,425  INFO  [TSLA] Training done in 8.1s
+2026-03-20 00:13:02,735  ERROR  Failed to get ticker 'AAPL' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:13:02,742  ERROR  
+1 Failed download:
+2026-03-20 00:13:02,742  ERROR  ['AAPL']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:13:02,906  ERROR  Failed to get ticker 'NVDA' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:13:02,916  ERROR  
+1 Failed download:
+2026-03-20 00:13:02,916  ERROR  ['NVDA']: ProxyError('Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 00:13:03,004  ERROR  Failed to get ticker 'TSLA' reason: Failed to perform, curl: (56) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 00:13:03,011  ERROR  
+1 Failed download:
+2026-03-20 00:13:03,012  ERROR  ['TSLA']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 00:24:43,680  INFO  [DryRun] Connected (simulation mode)
+2026-03-20 00:24:44,681  INFO  [Executor] Portfolio heat = 0.0%  open positions = 0
+2026-03-20 00:24:44,682  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-20 00:24:44,682  INFO  [DryRun] Filled SELL AAPL 5.9130 @ 338.0663  cash=101996.99
+2026-03-20 00:24:44,682  INFO  [DryRun] Bracket placed â€” SL=354.1962  TP=306.3138
+2026-03-20 00:24:44,682  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-20 00:24:44,683  INFO  [DryRun] Filled SELL NVDA 2.2711 @ 880.1813  cash=103993.97
+2026-03-20 00:24:44,683  INFO  [DryRun] Bracket placed â€” SL=913.2774  TP=815.3102
+2026-03-20 00:24:44,683  INFO  [Executor] SKIP TSLA â€” Below confidence threshold
+2026-03-20 00:24:44,684  INFO  [DryRun] State saved â†’ /home/claude/trading_system/outputs/dry_run_state.json
+2026-03-19 18:52:13,199  INFO  [AAPL] Model is fresh — skipping retrain
+2026-03-19 18:52:13,206  INFO  [NVDA] Model is fresh — skipping retrain
+2026-03-19 18:52:13,210  INFO  [TSLA] Model is fresh — skipping retrain
+2026-03-19 18:54:24,076  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-19 18:54:24,077  INFO  [AAPL] Fetching data …
+2026-03-19 18:54:32,088  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-19 18:54:35,688  INFO  [AAPL] Training done in 3.6s
+2026-03-19 18:54:35,690  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-19 18:54:35,691  INFO  [NVDA] Fetching data …
+2026-03-19 18:54:36,273  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-19 18:54:40,055  INFO  [NVDA] Training done in 3.8s
+2026-03-19 18:54:40,057  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-19 18:54:40,058  INFO  [TSLA] Fetching data …
+2026-03-19 18:54:40,960  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-19 18:54:43,833  INFO  [TSLA] Training done in 2.9s
+2026-03-19 18:58:39,313  INFO  [DryRun] Broker initialised - capital $100000
+2026-03-19 18:58:39,315  INFO  [DryRun] Connected (simulation mode)
+2026-03-19 18:58:48,367  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-19 18:58:48,368  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-19 18:58:48,369  INFO  [DryRun] Filled SELL AAPL qty=5.9130 @ 338.0663 cash=101996.99
+2026-03-19 18:58:48,370  INFO  [DryRun] Bracket placed — SL=354.1962  TP=306.3138
+2026-03-19 18:58:48,371  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-19 18:58:48,372  INFO  [DryRun] Filled SELL NVDA qty=2.2711 @ 880.1813 cash=103993.97
+2026-03-19 18:58:48,372  INFO  [DryRun] Bracket placed — SL=913.2774  TP=815.3102
+2026-03-19 18:58:48,373  INFO  [Executor] Entering SELL MSFT qty=3.8507  entry=519.3817  SL=541.9453  TP=474.2544
+2026-03-19 18:58:48,373  INFO  [DryRun] Filled SELL MSFT qty=3.8507 @ 519.1220 cash=105990.95
+2026-03-19 18:58:48,375  INFO  [DryRun] Bracket placed — SL=541.9453  TP=474.2544
+2026-03-19 18:58:48,375  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-19 18:58:48,375  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-19 18:58:48,376  INFO  [Executor] SKIP BTC-USD — Below confidence threshold
+2026-03-19 19:06:32,241  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-19 19:06:32,243  INFO  [MSFT] Fetching data …
+2026-03-19 19:06:33,624  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-19 19:06:37,013  INFO  [MSFT] Training done in 3.4s
+2026-03-19 19:06:37,016  INFO  
+--------------------------------------------------
+Training META
+2026-03-19 19:06:37,017  INFO  [META] Fetching data …
+2026-03-19 19:06:37,473  ERROR  [META] Not enough data — aborting
+2026-03-19 19:06:37,474  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-19 19:06:37,475  INFO  [SPY] Fetching data …
+2026-03-19 19:06:37,992  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-19 19:06:41,341  INFO  [SPY] Training done in 3.3s
+2026-03-19 19:06:41,344  INFO  
+--------------------------------------------------
+Training BTC-USD
+2026-03-19 19:06:41,345  INFO  [BTC-USD] Fetching data …
+2026-03-19 19:06:42,117  INFO  [BTC-USD] Training ensemble on 301 bars …
+2026-03-19 19:06:45,633  INFO  [BTC-USD] Training done in 3.5s
+2026-03-19 19:07:11,000  INFO  [DryRun] Broker initialised - capital $100000
+2026-03-19 19:07:11,002  INFO  [DryRun] Connected (simulation mode)
+2026-03-19 19:07:20,144  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-19 19:07:20,145  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-19 19:07:20,146  INFO  [DryRun] Filled SELL AAPL qty=5.9130 @ 338.0663 cash=101996.99
+2026-03-19 19:07:20,147  INFO  [DryRun] Bracket placed — SL=354.1962  TP=306.3138
+2026-03-19 19:07:20,148  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-19 19:07:20,148  INFO  [DryRun] Filled SELL NVDA qty=2.2711 @ 880.1813 cash=103993.97
+2026-03-19 19:07:20,149  INFO  [DryRun] Bracket placed — SL=913.2774  TP=815.3102
+2026-03-19 19:07:20,150  INFO  [Executor] Entering SELL MSFT qty=3.8507  entry=519.3817  SL=541.9453  TP=474.2544
+2026-03-19 19:07:20,151  INFO  [DryRun] Filled SELL MSFT qty=3.8507 @ 519.1220 cash=105990.95
+2026-03-19 19:07:20,152  INFO  [DryRun] Bracket placed — SL=541.9453  TP=474.2544
+2026-03-19 19:07:20,152  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-19 19:07:20,153  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-19 19:07:20,154  INFO  [Executor] SKIP BTC-USD — Below confidence threshold
+2026-03-19 19:09:14,074  INFO  
+--------------------------------------------------
+Training BTC-USD
+2026-03-19 19:09:14,075  INFO  [BTC-USD] Fetching data …
+2026-03-19 19:09:15,408  INFO  [BTC-USD] Training ensemble on 301 bars …
+2026-03-19 19:09:18,326  INFO  [BTC-USD] Training done in 2.9s
+2026-03-19 19:18:17,739  ERROR  [Alpaca] Missing API credentials. Set ALPACA_API_KEY / ALPACA_SECRET_KEY.
+2026-03-19 19:18:17,740  ERROR  Could not connect to broker — aborting
+2026-03-19 19:19:13,737  ERROR  [Alpaca] Missing API credentials. Set ALPACA_API_KEY / ALPACA_SECRET_KEY.
+2026-03-19 19:19:13,738  ERROR  Could not connect to broker — aborting
+2026-03-19 19:20:42,367  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-19 19:20:42,407  INFO  Running single-shot cycle …
+2026-03-19 19:20:44,820  INFO  Retraining META …
+2026-03-19 19:20:44,821  INFO  [META] Fetching data …
+2026-03-19 19:20:45,256  ERROR  [META] Not enough data — aborting
+2026-03-19 19:20:46,790  INFO  Retraining ETH-USD …
+2026-03-19 19:20:46,790  INFO  [ETH-USD] Fetching data …
+2026-03-19 19:20:47,127  ERROR  [ETH-USD] Not enough data — aborting
+2026-03-19 19:20:47,873  WARNING  [Alpaca] Bulk quote error: {"message":"code=400, message=invalid symbol: BTC-USD"}
+
+2026-03-19 19:20:48,097  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-19 19:20:48,098  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-19 19:20:48,257  ERROR  [Alpaca] Bracket order failed for AAPL: {"base_price":"249.84","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:20:48,258  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-19 19:20:48,379  ERROR  [Alpaca] Bracket order failed for NVDA: {"base_price":"179.17","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:20:48,380  INFO  [Executor] Entering SELL MSFT qty=3.8507  entry=519.3817  SL=541.9453  TP=474.2544
+2026-03-19 19:20:48,565  ERROR  [Alpaca] Bracket order failed for MSFT: {"base_price":"389.5003","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:20:48,566  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-19 19:20:48,567  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-19 19:20:48,568  INFO  [Executor] SKIP BTC-USD — Below confidence threshold
+2026-03-19 19:24:45,935  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-19 19:24:45,960  INFO  Running single-shot cycle …
+2026-03-19 19:24:48,483  INFO  Retraining META …
+2026-03-19 19:24:48,483  INFO  [META] Fetching data …
+2026-03-19 19:24:49,282  ERROR  [META] Not enough data — aborting
+2026-03-19 19:24:51,207  INFO  Retraining ETH-USD …
+2026-03-19 19:24:51,208  INFO  [ETH-USD] Fetching data …
+2026-03-19 19:24:51,605  ERROR  [ETH-USD] Not enough data — aborting
+2026-03-19 19:24:52,302  WARNING  [Alpaca] Bulk quote error: {"message":"code=400, message=invalid symbol: BTC-USD"}
+
+2026-03-19 19:24:52,591  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-19 19:24:52,593  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-19 19:24:52,898  ERROR  [Alpaca] Bracket order failed for AAPL: {"base_price":"249.84","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:24:52,900  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-19 19:24:53,072  ERROR  [Alpaca] Bracket order failed for NVDA: {"base_price":"179.17","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:24:53,073  INFO  [Executor] Entering SELL MSFT qty=3.8507  entry=519.3817  SL=541.9453  TP=474.2544
+2026-03-19 19:24:53,186  ERROR  [Alpaca] Bracket order failed for MSFT: {"base_price":"389.5003","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-19 19:24:53,187  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-19 19:24:53,188  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-19 19:24:53,189  INFO  [Executor] SKIP BTC-USD — Below confidence threshold
+2026-03-19 19:28:12,297  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-19 19:28:12,297  INFO  [AAPL] Fetching data …
+2026-03-19 19:28:13,520  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-19 19:28:16,717  INFO  [AAPL] Training done in 3.2s
+2026-03-19 19:28:16,721  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-19 19:28:16,723  INFO  [NVDA] Fetching data …
+2026-03-19 19:28:17,165  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-19 19:28:20,360  INFO  [NVDA] Training done in 3.2s
+2026-03-19 19:28:20,363  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-19 19:28:20,364  INFO  [MSFT] Fetching data …
+2026-03-19 19:28:21,218  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-19 19:28:24,070  INFO  [MSFT] Training done in 2.9s
+2026-03-19 19:28:24,073  INFO  
+--------------------------------------------------
+Training META
+2026-03-19 19:28:24,074  INFO  [META] Fetching data …
+2026-03-19 19:28:24,436  ERROR  [META] Not enough data — aborting
+2026-03-19 19:30:12,755  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-19 19:30:12,800  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-19 19:30:12,904  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:31:13,023  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:32:13,135  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:33:13,246  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:34:13,355  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:35:13,460  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:36:13,567  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:37:13,676  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:38:13,782  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:39:13,897  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:40:14,011  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:41:14,128  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:42:14,240  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:43:14,348  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:44:14,468  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:45:14,578  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:46:14,706  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:47:14,825  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:48:14,947  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:49:15,103  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:50:15,221  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:51:15,350  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:52:15,472  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:53:15,597  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:54:15,727  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:55:15,843  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:56:15,960  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:57:16,075  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:58:16,188  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 19:59:16,297  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:00:16,420  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:01:16,530  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:02:16,639  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:03:16,749  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:04:16,859  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:05:16,969  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:06:17,079  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:07:17,192  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:08:17,300  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:09:17,410  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:10:17,515  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:11:17,627  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:12:17,739  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:13:17,853  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:14:17,968  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:15:18,078  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:16:18,203  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:17:18,307  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:18:18,420  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:19:18,521  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:20:18,626  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:21:18,728  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:22:18,844  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:23:18,947  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:24:19,052  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:25:19,156  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:26:19,260  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:27:19,465  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:28:19,578  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:29:19,684  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:30:19,791  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:31:20,375  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:32:20,487  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:33:20,606  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:34:20,716  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:35:20,828  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:36:20,950  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:37:21,061  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:38:21,174  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:39:21,287  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:40:21,429  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:41:21,536  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:42:21,643  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:43:21,748  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:44:21,880  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:45:21,988  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:46:22,227  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:47:22,341  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:48:22,451  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:49:22,572  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:50:22,683  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:51:22,796  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:52:22,908  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:53:23,021  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:54:23,133  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:55:23,246  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:56:23,358  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:57:23,468  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:58:23,579  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 20:59:23,687  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:00:23,792  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:01:23,900  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:02:24,007  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:03:24,115  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:04:24,225  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:05:24,333  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:06:24,444  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:07:24,553  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:08:24,661  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:09:24,769  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:10:24,878  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:11:24,990  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:12:25,101  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:13:25,218  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:14:25,329  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:15:25,443  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:16:25,559  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:17:25,671  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:18:25,787  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:19:25,910  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:20:26,031  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:21:26,143  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:22:26,255  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:23:26,368  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:24:26,482  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:25:26,602  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:26:26,722  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:27:26,846  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:28:26,967  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:29:27,084  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:30:27,200  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:31:27,343  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:32:28,169  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:33:28,287  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:34:28,508  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:35:28,616  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:36:28,724  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:37:28,835  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:38:28,940  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:39:29,047  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:40:29,152  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:41:29,264  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:42:29,378  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:43:29,485  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:44:29,596  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:45:29,706  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:46:29,827  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:47:29,938  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:48:30,052  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:49:30,162  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:50:30,274  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:51:30,386  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:52:30,501  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:53:30,609  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:54:30,723  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:55:30,834  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:56:30,946  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:57:31,057  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:58:31,167  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 21:59:31,275  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:00:31,396  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:01:31,505  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:02:31,612  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:03:31,720  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:04:31,828  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:05:31,935  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:06:32,047  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:07:32,158  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:08:32,265  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:09:32,372  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:10:32,478  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:11:32,589  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:12:32,697  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:13:32,804  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:14:32,914  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:15:33,021  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:16:33,129  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:17:33,236  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:18:33,350  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:19:33,461  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:20:33,571  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:21:33,678  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:22:33,786  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:23:33,896  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:24:34,007  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:25:34,113  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:26:34,220  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 22:27:34,321  INFO  Market closed. Next open in ~0h 0m.
+2026-03-19 23:46:15,428  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 13:06:42,425  INFO  Retraining META …
+2026-03-20 13:06:42,426  INFO  [META] Fetching data …
+2026-03-20 13:06:43,355  ERROR  [META] Not enough data — aborting
+2026-03-20 13:06:45,784  INFO  Retraining ETH-USD …
+2026-03-20 13:06:45,785  INFO  [ETH-USD] Fetching data …
+2026-03-20 13:06:46,287  ERROR  [ETH-USD] Not enough data — aborting
+2026-03-20 13:06:47,220  WARNING  [Alpaca] Bulk quote error: {"message":"code=400, message=invalid symbol: BTC-USD"}
+
+2026-03-20 13:06:47,458  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:06:47,459  INFO  [Executor] Entering SELL AAPL qty=5.9130  entry=338.2354  SL=354.1962  TP=306.3138
+2026-03-20 13:06:47,591  ERROR  [Alpaca] Bracket order failed for AAPL: {"base_price":"248.48","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:06:47,592  INFO  [Executor] Entering SELL NVDA qty=2.2711  entry=880.6216  SL=913.2774  TP=815.3102
+2026-03-20 13:06:47,700  ERROR  [Alpaca] Bracket order failed for NVDA: {"base_price":"173.065","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:06:47,701  INFO  [Executor] Entering SELL MSFT qty=3.8507  entry=519.3817  SL=541.9453  TP=474.2544
+2026-03-20 13:06:47,808  ERROR  [Alpaca] Bracket order failed for MSFT: {"base_price":"381.765","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:06:47,810  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:06:47,811  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 13:06:47,811  INFO  [Executor] SKIP BTC-USD — Below confidence threshold
+2026-03-20 13:12:04,552  INFO  Shutting down …
+2026-03-20 13:12:04,666  INFO  State saved. Goodbye.
+2026-03-20 13:12:20,113  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-20 13:12:20,114  INFO  [AAPL] Fetching data …
+2026-03-20 13:12:21,716  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-20 13:12:27,012  INFO  [AAPL] Training done in 5.3s
+2026-03-20 13:12:27,014  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-20 13:12:27,015  INFO  [NVDA] Fetching data …
+2026-03-20 13:12:27,610  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-20 13:12:31,111  INFO  [NVDA] Training done in 3.5s
+2026-03-20 13:12:31,113  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-20 13:12:31,113  INFO  [MSFT] Fetching data …
+2026-03-20 13:12:31,605  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-20 13:12:34,782  INFO  [MSFT] Training done in 3.2s
+2026-03-20 13:12:34,785  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-20 13:12:34,788  INFO  [TSLA] Fetching data …
+2026-03-20 13:12:35,253  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-20 13:12:38,384  INFO  [TSLA] Training done in 3.1s
+2026-03-20 13:12:38,392  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-20 13:12:38,394  INFO  [SPY] Fetching data …
+2026-03-20 13:12:38,898  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-20 13:12:41,958  INFO  [SPY] Training done in 3.1s
+2026-03-20 13:16:36,562  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-20 13:16:36,564  INFO  [AAPL] Fetching data …
+2026-03-20 13:16:37,980  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-20 13:16:41,750  INFO  [AAPL] Training done in 3.8s
+2026-03-20 13:16:41,752  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-20 13:16:41,753  INFO  [NVDA] Fetching data …
+2026-03-20 13:16:42,338  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-20 13:16:45,755  INFO  [NVDA] Training done in 3.4s
+2026-03-20 13:16:45,757  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-20 13:16:45,758  INFO  [MSFT] Fetching data …
+2026-03-20 13:16:46,222  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-20 13:16:49,589  INFO  [MSFT] Training done in 3.4s
+2026-03-20 13:16:49,591  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-20 13:16:49,592  INFO  [TSLA] Fetching data …
+2026-03-20 13:16:50,290  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-20 13:16:53,654  INFO  [TSLA] Training done in 3.4s
+2026-03-20 13:16:53,656  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-20 13:16:53,657  INFO  [SPY] Fetching data …
+2026-03-20 13:16:54,165  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-20 13:16:57,674  INFO  [SPY] Training done in 3.5s
+2026-03-20 13:17:39,347  ERROR  [Alpaca] Connection failed: {"message": "unauthorized."}
+
+2026-03-20 13:17:39,348  ERROR  Could not connect to broker — aborting
+2026-03-20 13:18:12,335  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-20 13:18:12,405  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-20 13:18:12,517  INFO  --- Starting cycle at 13:18:12 ---
+2026-03-20 13:18:13,977  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 13:18:14,473  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 13:18:14,996  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 13:18:14,999  INFO  Retraining META …
+2026-03-20 13:18:15,000  INFO  [META] Fetching data …
+2026-03-20 13:18:15,527  ERROR  [META] Not enough data — aborting
+2026-03-20 13:18:16,172  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 13:18:16,836  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 13:18:18,171  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:18:18,173  INFO  [Executor] Entering SELL AAPL qty=8.0402  entry=248.7500  SL=354.1962  TP=306.3138
+2026-03-20 13:18:18,285  ERROR  [Alpaca] Bracket order failed for AAPL: {"base_price":"248.12","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:18:18,287  INFO  [Executor] Entering SELL NVDA qty=2.7019  entry=173.0550  SL=913.2774  TP=815.3102
+2026-03-20 13:18:18,398  ERROR  [Alpaca] Bracket order failed for NVDA: {"base_price":"173.055","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:18:18,400  INFO  [Executor] Entering SELL MSFT qty=5.2429  entry=381.4650  SL=541.9453  TP=474.2544
+2026-03-20 13:18:18,510  ERROR  [Alpaca] Bracket order failed for MSFT: {"base_price":"381.805","code":42210000,"message":"take_profit.limit_price must be \u003c= base_price - 0.01"}
+2026-03-20 13:18:18,512  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:18:18,513  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 13:24:18,810  INFO  Shutting down …
+2026-03-20 13:24:18,980  INFO  State saved. Goodbye.
+2026-03-20 13:24:35,992  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-20 13:24:36,009  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-20 13:24:36,108  INFO  --- Starting cycle at 13:24:36 ---
+2026-03-20 13:24:37,304  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 13:24:37,908  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 13:24:38,439  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 13:24:38,441  INFO  Retraining META …
+2026-03-20 13:24:38,442  INFO  [META] Fetching data …
+2026-03-20 13:24:39,039  ERROR  [META] Not enough data — aborting
+2026-03-20 13:24:39,435  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 13:24:39,886  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 13:24:40,806  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:24:40,808  INFO  [Executor] Entering SELL AAPL qty=8.0647  entry=247.9950  SL=252.9549  TP=238.0752
+2026-03-20 13:24:40,915  ERROR  [Alpaca] Bracket order failed for AAPL: {"code":42210000,"message":"invalid take_profit.limit_price 238.0752. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:24:40,917  INFO  [Executor] Entering SELL NVDA qty=2.7007  entry=172.7350  SL=176.1897  TP=165.8256
+2026-03-20 13:24:41,022  ERROR  [Alpaca] Bracket order failed for NVDA: {"code":42210000,"message":"invalid take_profit.limit_price 165.8256. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:24:41,023  INFO  [Executor] Entering SELL MSFT qty=5.2445  entry=381.3550  SL=388.9821  TP=366.1008
+2026-03-20 13:24:41,126  ERROR  [Alpaca] Bracket order failed for MSFT: {"code":42210000,"message":"invalid take_profit.limit_price 366.1008. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:24:41,127  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:24:41,128  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 13:26:43,324  INFO  Shutting down …
+2026-03-20 13:26:43,471  INFO  State saved. Goodbye.
+2026-03-20 13:28:21,888  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-20 13:28:21,890  INFO  [AAPL] Fetching data …
+2026-03-20 13:28:23,502  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-20 13:28:26,649  INFO  [AAPL] Training done in 3.1s
+2026-03-20 13:28:26,653  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-20 13:28:26,654  INFO  [NVDA] Fetching data …
+2026-03-20 13:28:27,206  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-20 13:28:30,515  INFO  [NVDA] Training done in 3.3s
+2026-03-20 13:28:30,517  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-20 13:28:30,518  INFO  [MSFT] Fetching data …
+2026-03-20 13:28:30,949  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-20 13:28:33,987  INFO  [MSFT] Training done in 3.0s
+2026-03-20 13:28:33,989  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-20 13:28:33,990  INFO  [TSLA] Fetching data …
+2026-03-20 13:28:34,701  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-20 13:28:40,152  INFO  [TSLA] Training done in 5.4s
+2026-03-20 13:28:40,155  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-20 13:28:40,155  INFO  [SPY] Fetching data …
+2026-03-20 13:28:40,725  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-20 13:28:47,645  INFO  [SPY] Training done in 6.9s
+2026-03-20 13:29:18,808  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-20 13:29:18,878  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-20 13:29:18,977  INFO  --- Starting cycle at 13:29:18 ---
+2026-03-20 13:29:20,203  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 13:29:20,696  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 13:29:21,239  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 13:29:21,243  INFO  Retraining META …
+2026-03-20 13:29:21,244  INFO  [META] Fetching data …
+2026-03-20 13:29:21,595  ERROR  [META] Not enough data — aborting
+2026-03-20 13:29:22,182  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 13:29:22,746  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 13:29:23,702  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:29:23,704  INFO  [Executor] Entering SELL AAPL qty=8.0300  entry=249.0650  SL=254.0463  TP=239.1024
+2026-03-20 13:29:23,808  ERROR  [Alpaca] Bracket order failed for AAPL: {"code":42210000,"message":"invalid take_profit.limit_price 239.1024. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:29:23,809  INFO  [Executor] Entering SELL NVDA qty=2.6997  entry=172.4600  SL=175.9092  TP=165.5616
+2026-03-20 13:29:23,915  ERROR  [Alpaca] Bracket order failed for NVDA: {"code":42210000,"message":"invalid take_profit.limit_price 165.56159999999997. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:29:23,918  INFO  [Executor] Entering SELL MSFT qty=5.2407  entry=381.6300  SL=389.2626  TP=366.3648
+2026-03-20 13:29:24,022  ERROR  [Alpaca] Bracket order failed for MSFT: {"code":42210000,"message":"invalid take_profit.limit_price 366.3648. sub-penny increment does not fulfill minimum pricing criteria"}
+2026-03-20 13:29:24,023  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:29:24,024  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 13:30:14,845  INFO  Shutting down …
+2026-03-20 13:30:14,962  INFO  State saved. Goodbye.
+2026-03-20 13:31:15,305  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-20 13:31:15,333  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-20 13:31:15,464  INFO  --- Starting cycle at 13:31:15 ---
+2026-03-20 13:31:16,627  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 13:31:17,114  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 13:31:17,597  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 13:31:17,600  INFO  Retraining META …
+2026-03-20 13:31:17,601  INFO  [META] Fetching data …
+2026-03-20 13:31:17,979  ERROR  [META] Not enough data — aborting
+2026-03-20 13:31:18,786  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 13:31:19,261  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 13:31:20,287  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:31:20,289  INFO  [Executor] Entering SELL AAPL qty=8.0743  entry=247.7000  SL=252.6500  TP=237.7900
+2026-03-20 13:31:20,401  ERROR  [Alpaca] Bracket order failed for AAPL: {"code":42210000,"message":"fractional orders must be simple orders"}
+2026-03-20 13:31:20,403  INFO  [Executor] Entering SELL NVDA qty=2.6993  entry=172.3350  SL=175.7800  TP=165.4400
+2026-03-20 13:31:20,586  ERROR  [Alpaca] Bracket order failed for NVDA: {"code":42210000,"message":"fractional orders must be simple orders"}
+2026-03-20 13:31:20,587  INFO  [Executor] Entering SELL MSFT qty=5.2336  entry=382.1450  SL=389.7900  TP=366.8600
+2026-03-20 13:31:20,698  ERROR  [Alpaca] Bracket order failed for MSFT: {"code":42210000,"message":"fractional orders must be simple orders"}
+2026-03-20 13:31:20,699  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:31:20,700  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 13:37:50,307  INFO  Shutting down …
+2026-03-20 13:37:50,413  INFO  State saved. Goodbye.
+2026-03-20 13:39:06,362  INFO  [Alpaca] Connected (PAPER) — equity=$100000
+2026-03-20 13:39:06,388  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-20 13:39:06,538  INFO  --- Starting cycle at 13:39:06 ---
+2026-03-20 13:39:14,545  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 13:39:15,238  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 13:39:15,857  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 13:39:15,860  INFO  Retraining META …
+2026-03-20 13:39:15,860  INFO  [META] Fetching data …
+2026-03-20 13:39:16,236  ERROR  [META] Not enough data — aborting
+2026-03-20 13:39:16,769  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 13:39:17,329  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 13:39:18,419  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-20 13:39:18,420  INFO  [Executor] Entering SELL AAPL qty=8.0000  entry=246.2750  SL=251.2000  TP=236.4200
+2026-03-20 13:39:18,537  INFO  [Alpaca] Bracket submitted for AAPL — SL=251.2000  TP=236.4200
+2026-03-20 13:39:18,538  INFO  [Executor] Entering SELL NVDA qty=2.0000  entry=172.0200  SL=175.4600  TP=165.1400
+2026-03-20 13:39:18,653  INFO  [Alpaca] Bracket submitted for NVDA — SL=175.4600  TP=165.1400
+2026-03-20 13:39:18,654  INFO  [Executor] Entering SELL MSFT qty=5.0000  entry=380.4000  SL=388.0100  TP=365.1800
+2026-03-20 13:39:18,769  INFO  [Alpaca] Bracket submitted for MSFT — SL=388.0100  TP=365.1800
+2026-03-20 13:39:18,770  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 13:39:18,771  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 14:00:22,214  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:01:22,336  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:02:22,532  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:03:22,746  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:04:22,960  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:05:23,151  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:06:23,308  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:07:23,605  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:08:23,716  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:09:23,842  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:10:24,039  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:11:24,157  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:12:24,262  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:13:24,375  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:14:24,497  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:15:24,617  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:16:24,734  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:17:24,843  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:18:24,957  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:19:25,071  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:20:25,190  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:21:25,369  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:22:25,486  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:23:25,601  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:24:25,721  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:25:25,838  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:26:25,952  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:27:26,070  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:28:26,189  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:29:26,307  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:30:26,421  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:31:26,582  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:32:26,795  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:33:26,911  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:34:27,118  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:35:27,237  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:36:27,442  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:37:27,657  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:38:27,870  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:39:28,086  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:40:29,091  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:41:29,204  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:42:29,337  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:43:29,550  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:44:29,673  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:45:29,875  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:46:30,087  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:47:30,207  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:48:30,321  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:49:30,431  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:50:30,546  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:51:30,744  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:52:30,862  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:53:30,980  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:54:31,091  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:55:31,207  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:56:31,319  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:57:31,427  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:58:31,537  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 14:59:31,654  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:00:31,759  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:01:31,873  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:02:31,980  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:03:32,174  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:04:32,282  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:05:32,395  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:06:32,506  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:07:32,613  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:08:32,724  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:09:32,832  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:10:32,938  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:11:33,051  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:12:33,158  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:13:33,267  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:14:33,378  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:15:33,487  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:16:33,606  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:17:33,719  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:18:33,827  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:19:33,933  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:20:34,045  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:21:34,152  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:22:34,259  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:23:34,375  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:24:34,595  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:25:34,708  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:26:34,917  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:27:35,032  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:28:35,145  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:29:35,255  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:30:35,361  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:31:35,472  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:32:35,585  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:33:35,697  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:34:35,902  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:35:36,015  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:36:36,120  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:37:36,229  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:38:36,337  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:39:36,444  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:40:36,559  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:41:37,474  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:42:37,604  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:43:37,717  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:44:37,827  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:45:37,949  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:46:38,060  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:47:38,177  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:48:38,313  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:49:38,417  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:50:38,529  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:51:38,641  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:52:38,812  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:53:53,974  INFO  --- Starting cycle at 15:53:53 ---
+2026-03-20 15:54:17,964  ERROR  
+1 Failed download:
+2026-03-20 15:54:17,966  ERROR  ['AAPL']: SSLError('Failed to perform, curl: (35) TLS connect error: error:00000000:invalid library (0):OPENSSL_internal:invalid library (0). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 15:54:18,071  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-20 15:54:33,090  ERROR  
+1 Failed download:
+2026-03-20 15:54:33,093  ERROR  ['NVDA']: Timeout('Failed to perform, curl: (28) Connection timed out after 8009 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 15:54:33,197  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-20 15:54:43,200  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-20 15:54:43,205  INFO  Retraining META …
+2026-03-20 15:54:43,206  INFO  [META] Fetching data …
+2026-03-20 15:54:43,676  ERROR  [META] Not enough data — aborting
+2026-03-20 15:54:44,279  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-20 15:54:44,826  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-20 15:54:46,708  INFO  [Executor] Portfolio heat = 0.1% open positions = 3
+2026-03-20 15:54:46,709  INFO  [Executor] SKIP AAPL — Already in position (same direction)
+2026-03-20 15:54:46,709  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-20 15:54:46,710  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-20 15:54:46,710  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-20 15:54:46,710  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-20 15:55:46,939  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:56:47,115  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:57:50,492  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:58:50,599  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 15:59:50,715  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:00:50,824  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:01:50,960  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:02:51,080  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:03:51,194  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:04:51,309  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:05:51,420  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:06:51,616  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:07:51,724  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:08:51,937  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:09:52,045  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:10:52,152  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:11:52,322  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:12:52,432  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:13:52,547  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:14:52,663  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:15:52,771  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:16:52,875  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:17:57,478  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:18:57,589  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:19:57,701  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:20:57,818  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:21:57,932  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:22:58,056  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:23:58,169  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:24:58,278  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:25:58,419  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:26:58,530  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:27:58,641  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:28:58,749  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:29:58,857  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:30:58,966  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:31:59,073  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:32:59,209  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:33:59,315  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:34:59,429  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:35:59,537  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:36:59,651  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:37:59,767  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:38:59,872  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:39:59,983  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:41:00,094  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:42:00,204  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:43:00,341  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:44:00,446  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:45:00,554  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:46:00,721  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:47:00,936  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:48:01,054  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:49:01,168  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:50:01,277  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:51:01,478  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:52:01,588  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:53:01,800  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:54:01,914  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:55:02,022  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:56:02,983  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:57:03,166  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:58:03,377  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 16:59:03,590  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:00:03,744  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:01:03,861  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:02:03,972  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:03:04,086  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:04:04,242  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:05:04,357  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:06:04,467  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:07:04,578  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:08:04,690  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:09:04,896  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:10:05,016  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:11:05,216  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:12:05,325  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:13:05,442  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:14:05,552  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:15:05,664  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:16:05,867  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:17:06,080  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:18:06,201  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:19:06,406  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:20:06,518  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:21:06,629  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:22:06,741  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:23:06,854  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:24:07,054  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:25:07,174  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:26:07,285  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:27:07,398  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:28:07,596  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:29:07,706  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:30:07,919  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:31:08,134  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:32:08,344  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:33:08,558  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:34:08,668  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:35:08,776  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:36:08,996  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:37:09,107  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:38:09,222  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:39:09,421  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:40:09,531  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:41:09,643  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:42:09,751  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:43:09,858  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:44:09,965  INFO  Market closed. Next open in ~0h 0m.
+2026-03-20 17:45:10,073  INFO  Market closed. Next open in ~0h 0m.
+2026-03-21 13:38:43,832  INFO  Market closed. Next open in ~43h 51m.
+2026-03-21 14:38:45,531  INFO  Market closed. Next open in ~42h 51m.
+2026-03-21 15:38:45,658  INFO  Market closed. Next open in ~41h 51m.
+2026-03-22 00:37:54,599  INFO  Market closed. Next open in ~32h 52m.
+2026-03-22 01:37:55,792  INFO  Market closed. Next open in ~31h 52m.
+2026-03-22 15:53:16,938  INFO  Market closed. Next open in ~17h 36m.
+2026-03-22 16:53:18,110  INFO  Market closed. Next open in ~16h 36m.
+2026-03-23 13:06:03,302  INFO  --- Starting cycle at 13:06:03 ---
+2026-03-23 13:06:05,480  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-23 13:06:06,977  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-23 13:06:07,852  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-23 13:06:07,874  INFO  Retraining META …
+2026-03-23 13:06:07,884  INFO  [META] Fetching data …
+2026-03-23 13:06:08,417  ERROR  [META] Not enough data — aborting
+2026-03-23 13:06:09,235  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-23 13:06:10,388  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-23 13:06:12,039  INFO  [Executor] Portfolio heat = 0.1% open positions = 3
+2026-03-23 13:06:12,043  INFO  [Executor] SKIP AAPL — Already in position (same direction)
+2026-03-23 13:06:12,045  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-23 13:06:12,046  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-23 13:06:12,047  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-23 13:06:12,048  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-23 13:12:10,944  INFO  Shutting down …
+2026-03-23 13:12:11,038  INFO  State saved. Goodbye.
+2026-03-23 13:12:35,065  INFO  [Alpaca] Connected (PAPER) — equity=$99938.14
+2026-03-23 13:12:35,083  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 13:12:35,171  INFO  --- Starting cycle at 13:12:35 ---
+2026-03-23 13:12:41,736  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-23 13:12:42,501  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-23 13:12:43,058  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-23 13:12:43,060  INFO  Retraining META …
+2026-03-23 13:12:43,060  INFO  [META] Fetching data …
+2026-03-23 13:12:43,454  ERROR  [META] Not enough data — aborting
+2026-03-23 13:12:44,064  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-23 13:12:44,618  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-23 13:12:45,514  INFO  [Executor] Portfolio heat = 0.1% open positions = 3
+2026-03-23 13:12:45,521  INFO  [Executor] SKIP AAPL — Already in position (same direction)
+2026-03-23 13:12:45,521  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-23 13:12:45,522  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-23 13:12:45,522  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-23 13:12:45,523  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-23 13:42:49,192  INFO  --- Starting cycle at 13:42:49 ---
+2026-03-23 13:42:50,067  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-23 13:42:50,672  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-23 13:42:51,202  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-23 13:42:51,204  INFO  Retraining META …
+2026-03-23 13:42:51,205  INFO  [META] Fetching data …
+2026-03-23 13:42:51,609  ERROR  [META] Not enough data — aborting
+2026-03-23 13:42:52,173  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-23 13:42:52,787  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-23 13:42:53,660  INFO  [Executor] Portfolio heat = 0.1% open positions = 3
+2026-03-23 13:42:53,661  INFO  [Executor] SKIP AAPL — Already in position (same direction)
+2026-03-23 13:42:53,661  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-23 13:42:53,662  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-23 13:42:53,662  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-23 13:42:53,663  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-23 14:00:55,458  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:01:55,550  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:02:55,644  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:03:55,734  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:04:55,821  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:05:55,915  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:06:56,008  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:07:56,103  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:08:56,196  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:09:56,286  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:10:56,379  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:11:56,485  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:12:56,579  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:13:56,674  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:14:56,766  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:15:56,858  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:16:56,949  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:17:57,043  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:18:57,139  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:19:57,232  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:20:57,320  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:21:57,411  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:22:57,506  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:23:58,107  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:24:58,198  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:25:58,289  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:26:58,383  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:27:58,476  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:28:58,574  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:29:58,666  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:30:58,824  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:31:58,939  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:32:59,038  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:33:59,139  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:34:59,238  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:35:59,340  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:36:59,441  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:37:59,547  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 14:39:21,245  INFO  --- Starting cycle at 14:39:21 ---
+2026-03-23 14:39:21,299  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,301  ERROR  ['AAPL']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,381  INFO    AAPL -> SELL  conf=83%  p_up=0.19
+2026-03-23 14:39:21,435  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,436  ERROR  ['NVDA']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,529  INFO    NVDA -> SELL  conf=95%  p_up=0.07
+2026-03-23 14:39:21,591  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,592  ERROR  ['MSFT']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,667  INFO    MSFT -> SELL  conf=90%  p_up=0.11
+2026-03-23 14:39:21,672  INFO  Retraining META …
+2026-03-23 14:39:21,673  INFO  [META] Fetching data …
+2026-03-23 14:39:21,696  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,697  ERROR  ['META']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,704  ERROR  [META] Not enough data — aborting
+2026-03-23 14:39:21,743  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,745  ERROR  ['TSLA']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,820  INFO    TSLA -> HOLD  conf=52%  p_up=0.48
+2026-03-23 14:39:21,871  ERROR  
+1 Failed download:
+2026-03-23 14:39:21,871  ERROR  ['SPY']: DNSError('Failed to perform, curl: (6) Could not resolve host: fc.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-23 14:39:21,941  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-23 14:39:21,946  WARNING  [Alpaca] Bulk quote error: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/quotes/latest?symbols=AAPL%2CNVDA%2CMSFT%2CTSLA%2CSPY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024E26434410>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-03-23 14:39:21,957  ERROR  [Alpaca] get_positions error: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/positions (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024E26434410>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-03-23 14:39:21,960  INFO  [Executor] Portfolio heat = 0.0% open positions = 0
+2026-03-23 14:39:21,960  INFO  [Executor] Entering SELL AAPL qty=5.0000  entry=338.2354  SL=345.0000  TP=324.7100
+2026-03-23 14:39:21,989  ERROR  [Alpaca] Bracket order failed for AAPL: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/orders (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024E26E1EFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-03-23 14:39:21,990  INFO  [Executor] Entering SELL NVDA qty=2.0000  entry=880.6216  SL=898.2300  TP=845.4000
+2026-03-23 14:39:21,993  ERROR  [Alpaca] Bracket order failed for NVDA: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/orders (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024E26E1F390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-03-23 14:39:21,993  INFO  [Executor] Entering SELL MSFT qty=3.0000  entry=519.3817  SL=529.7700  TP=498.6100
+2026-03-23 14:39:21,996  ERROR  [Alpaca] Bracket order failed for MSFT: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/orders (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024E26E1F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2026-03-23 14:39:21,997  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-23 14:39:21,997  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-23 15:04:23,089  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:05:23,167  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:06:23,242  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:07:23,322  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:08:23,398  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:08:26,237  INFO  Shutting down …
+2026-03-23 15:08:26,319  INFO  State saved. Goodbye.
+2026-03-23 15:10:44,247  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-23 15:10:44,251  INFO  [AAPL] Fetching data …
+2026-03-23 15:10:49,415  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-23 15:10:55,272  INFO  [AAPL] Training done in 5.9s
+2026-03-23 15:10:55,274  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-23 15:10:55,274  INFO  [NVDA] Fetching data …
+2026-03-23 15:10:58,142  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-23 15:11:02,220  INFO  [NVDA] Training done in 4.1s
+2026-03-23 15:11:02,222  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-23 15:11:02,223  INFO  [MSFT] Fetching data …
+2026-03-23 15:11:05,311  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-23 15:11:09,401  INFO  [MSFT] Training done in 4.1s
+2026-03-23 15:11:09,403  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-23 15:11:09,404  INFO  [TSLA] Fetching data …
+2026-03-23 15:11:11,764  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-23 15:11:15,863  INFO  [TSLA] Training done in 4.1s
+2026-03-23 15:11:15,865  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-23 15:11:15,866  INFO  [SPY] Fetching data …
+2026-03-23 15:11:18,769  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-23 15:11:22,569  INFO  [SPY] Training done in 3.8s
+2026-03-23 15:14:10,187  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-23 15:14:10,189  INFO  [AAPL] Fetching data …
+2026-03-23 15:14:15,023  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-23 15:14:18,444  INFO  [AAPL] Training done in 3.4s
+2026-03-23 15:14:18,446  INFO  
+--------------------------------------------------
+Training NVDA
+2026-03-23 15:14:18,447  INFO  [NVDA] Fetching data …
+2026-03-23 15:14:21,251  INFO  [NVDA] Training ensemble on 301 bars …
+2026-03-23 15:14:24,688  INFO  [NVDA] Training done in 3.4s
+2026-03-23 15:14:24,690  INFO  
+--------------------------------------------------
+Training MSFT
+2026-03-23 15:14:24,692  INFO  [MSFT] Fetching data …
+2026-03-23 15:14:27,347  INFO  [MSFT] Training ensemble on 301 bars …
+2026-03-23 15:14:30,943  INFO  [MSFT] Training done in 3.6s
+2026-03-23 15:14:30,945  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-23 15:14:30,949  INFO  [TSLA] Fetching data …
+2026-03-23 15:14:33,188  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-23 15:14:36,747  INFO  [TSLA] Training done in 3.6s
+2026-03-23 15:14:36,750  INFO  
+--------------------------------------------------
+Training SPY
+2026-03-23 15:14:36,751  INFO  [SPY] Fetching data …
+2026-03-23 15:14:39,370  INFO  [SPY] Training ensemble on 301 bars …
+2026-03-23 15:14:43,913  INFO  [SPY] Training done in 4.5s
