@@ -7,7 +7,13 @@ from dataclasses import dataclass, field
 from typing import List
 
 # ── Assets to watch ──────────────────────────────────────────────────────────
-WATCHLIST = ["AAPL", "NVDA", "MSFT", "META", "GOOGL", "AMZN", "AMD", "TSLA", "SPY", "QQQ"]
+WATCHLIST = [
+    "AAPL", "NVDA", "MSFT", "GOOGL", "META", "AMZN", "AMD", "TSLA",
+    "CRM", "ORCL", "ADBE", "INTC", "QCOM", "JPM", "BAC", "GS", "V",
+    "MA", "JNJ", "UNH", "PFE", "ABBV", "QQQ", "IWM", "DIA", "XLF",
+    "XLK", "COIN", "PLTR", "RBLX", "UBER", "LYFT", "NFLX", "SNOW",
+    "MSTR", "SPY"
+]
 
 # ── Data ──────────────────────────────────────────────────────────────────────
 DATA_LOOKBACK_DAYS   = 365 * 2   # training window
