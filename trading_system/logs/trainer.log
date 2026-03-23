@@ -1427,3 +1427,28 @@ Training AMD
 Training CRM
 2026-03-23 15:25:42,782  INFO  [CRM] Fetching data …
 2026-03-23 15:25:44,960  ERROR  [CRM] Not enough data — aborting
+2026-03-23 15:26:17,763  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:26:17,764  INFO  [GOOGL] Fetching data …
+2026-03-23 15:26:22,045  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:26:22,046  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:26:22,047  INFO  [META] Fetching data …
+2026-03-23 15:26:24,512  ERROR  [META] Not enough data — aborting
+2026-03-23 15:26:24,514  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:26:24,514  INFO  [AMZN] Fetching data …
+2026-03-23 15:26:26,803  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:26:26,804  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:26:26,805  INFO  [AMD] Fetching data …
+2026-03-23 15:26:29,656  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:26:29,657  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:26:29,658  INFO  [CRM] Fetching data …
+2026-03-23 15:26:32,012  ERROR  [CRM] Not enough data — aborting

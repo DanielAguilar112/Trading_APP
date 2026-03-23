@@ -32,8 +32,11 @@ def fetch_ohlcv(ticker: str, days: int = DATA_LOOKBACK_DAYS) -> pd.DataFrame:
         df = yf.download(ticker, period=f"{days}d", interval="1d",
                          auto_adjust=True, progress=False, timeout=8)
         if not df.empty:
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = [c[0].lower() for c in df.columns]
+        else:
             df.columns = [c.lower() for c in df.columns]
-            df = df[["open","high","low","close","volume"]].copy()
+        df = df[["open","high","low","close","volume"]].copy()
             df.dropna(inplace=True)
             if len(df) >= MIN_HISTORY_ROWS:
                 return df
