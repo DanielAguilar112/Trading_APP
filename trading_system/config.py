@@ -14,7 +14,6 @@ WATCHLIST = [
     "XLK", "COIN", "PLTR", "RBLX", "UBER", "LYFT", "NFLX", "SNOW",
     "MSTR", "SPY"
 ]
-
 # ── Data ──────────────────────────────────────────────────────────────────────
 DATA_LOOKBACK_DAYS   = 365 * 2   # training window
 PREDICTION_HORIZON   = 3         # trading days ahead (24-72 h)

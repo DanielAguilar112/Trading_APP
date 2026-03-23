@@ -1657,3 +1657,14 @@ Training MSTR
 2026-03-23 15:41:56,279  INFO  [MSTR] Fetching data …
 2026-03-23 15:41:59,598  INFO  [MSTR] Training ensemble on 531 bars …
 2026-03-23 15:42:09,812  INFO  [MSTR] Training done in 10.2s
+2026-03-23 15:43:55,563  INFO  [Alpaca] Connected (PAPER) — equity=$99942.45
+2026-03-23 15:43:55,586  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 15:43:55,661  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:44:55,743  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:45:55,822  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:46:55,900  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:47:33,621  INFO  Shutting down …
+2026-03-23 15:47:33,694  INFO  State saved. Goodbye.
+2026-03-23 15:47:43,066  INFO  [Alpaca] Connected (PAPER) — equity=$99942.55
+2026-03-23 15:47:43,070  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 15:47:43,143  INFO  Market closed. Next open in ~0h 0m.
