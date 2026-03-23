@@ -1,6 +1,6 @@
 {
   "AAPL": {
-    "last_trained": "2026-03-23T15:14:18.445173",
+    "last_trained": "2026-03-23T15:24:22.255878",
     "num_bars": 301,
     "metrics": {
       "xgboost": {
@@ -75,7 +75,7 @@
     "decay_alerts": {}
   },
   "TSLA": {
-    "last_trained": "2026-03-23T15:14:36.748635",
+    "last_trained": "2026-03-23T15:19:43.196964",
     "num_bars": 301,
     "metrics": {
       "xgboost": {

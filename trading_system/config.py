@@ -7,12 +7,12 @@ from dataclasses import dataclass, field
 from typing import List
 
 # ── Assets to watch ──────────────────────────────────────────────────────────
-WATCHLIST = ["AAPL", "NVDA", "MSFT", "META", "TSLA", "SPY"]
+WATCHLIST = ["AAPL", "NVDA", "MSFT", "META", "GOOGL", "AMZN", "AMD", "TSLA", "SPY", "QQQ"]
 
 # ── Data ──────────────────────────────────────────────────────────────────────
 DATA_LOOKBACK_DAYS   = 365 * 3   # training window
 PREDICTION_HORIZON   = 3         # trading days ahead (24-72 h)
-MIN_HISTORY_ROWS     = 120       # minimum bars required to generate a signal
+MIN_HISTORY_ROWS     = 60       # minimum bars required to generate a signal
 
 # ── Model ────────────────────────────────────────────────────────────────────
 CONFIDENCE_THRESHOLD = 0.65      # only trade when P(up) > this

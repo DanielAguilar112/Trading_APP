@@ -1060,3 +1060,345 @@ Training SPY
 2026-03-23 15:14:36,751  INFO  [SPY] Fetching data …
 2026-03-23 15:14:39,370  INFO  [SPY] Training ensemble on 301 bars …
 2026-03-23 15:14:43,913  INFO  [SPY] Training done in 4.5s
+2026-03-23 15:17:25,508  INFO  [Alpaca] Connected (PAPER) — equity=$99941.23
+2026-03-23 15:17:25,543  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 15:17:25,616  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:18:25,690  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:19:12,374  INFO  Shutting down …
+2026-03-23 15:19:12,458  INFO  State saved. Goodbye.
+2026-03-23 15:19:23,503  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:19:23,504  INFO  [GOOGL] Fetching data …
+2026-03-23 15:19:28,395  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:19:28,397  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:19:28,397  INFO  [META] Fetching data …
+2026-03-23 15:19:30,678  ERROR  [META] Not enough data — aborting
+2026-03-23 15:19:30,680  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:19:30,680  INFO  [AMZN] Fetching data …
+2026-03-23 15:19:33,860  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:19:33,861  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:19:33,862  INFO  [AMD] Fetching data …
+2026-03-23 15:19:37,581  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:19:37,583  INFO  
+--------------------------------------------------
+Training TSLA
+2026-03-23 15:19:37,583  INFO  [TSLA] Fetching data …
+2026-03-23 15:19:39,872  INFO  [TSLA] Training ensemble on 301 bars …
+2026-03-23 15:19:43,196  INFO  [TSLA] Training done in 3.3s
+2026-03-23 15:19:43,198  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:19:43,198  INFO  [CRM] Fetching data …
+2026-03-23 15:19:46,340  ERROR  [CRM] Not enough data — aborting
+2026-03-23 15:19:46,341  INFO  
+--------------------------------------------------
+Training ORCL
+2026-03-23 15:19:46,341  INFO  [ORCL] Fetching data …
+2026-03-23 15:19:49,673  ERROR  [ORCL] Not enough data — aborting
+2026-03-23 15:19:49,675  INFO  
+--------------------------------------------------
+Training ADBE
+2026-03-23 15:19:49,675  INFO  [ADBE] Fetching data …
+2026-03-23 15:19:53,156  ERROR  [ADBE] Not enough data — aborting
+2026-03-23 15:19:53,157  INFO  
+--------------------------------------------------
+Training INTC
+2026-03-23 15:19:53,157  INFO  [INTC] Fetching data …
+2026-03-23 15:19:56,629  ERROR  [INTC] Not enough data — aborting
+2026-03-23 15:19:56,630  INFO  
+--------------------------------------------------
+Training QCOM
+2026-03-23 15:19:56,630  INFO  [QCOM] Fetching data …
+2026-03-23 15:20:00,319  ERROR  [QCOM] Not enough data — aborting
+2026-03-23 15:20:00,320  INFO  
+--------------------------------------------------
+Training JPM
+2026-03-23 15:20:00,320  INFO  [JPM] Fetching data …
+2026-03-23 15:20:04,003  ERROR  [JPM] Not enough data — aborting
+2026-03-23 15:20:04,004  INFO  
+--------------------------------------------------
+Training BAC
+2026-03-23 15:20:04,005  INFO  [BAC] Fetching data …
+2026-03-23 15:20:07,188  ERROR  [BAC] Not enough data — aborting
+2026-03-23 15:20:07,189  INFO  
+--------------------------------------------------
+Training GS
+2026-03-23 15:20:07,189  INFO  [GS] Fetching data …
+2026-03-23 15:20:10,659  ERROR  [GS] Not enough data — aborting
+2026-03-23 15:20:10,660  INFO  
+--------------------------------------------------
+Training V
+2026-03-23 15:20:10,660  INFO  [V] Fetching data …
+2026-03-23 15:20:13,836  ERROR  [V] Not enough data — aborting
+2026-03-23 15:20:13,836  INFO  
+--------------------------------------------------
+Training MA
+2026-03-23 15:20:13,837  INFO  [MA] Fetching data …
+2026-03-23 15:20:17,204  ERROR  [MA] Not enough data — aborting
+2026-03-23 15:20:17,205  INFO  
+--------------------------------------------------
+Training JNJ
+2026-03-23 15:20:17,206  INFO  [JNJ] Fetching data …
+2026-03-23 15:20:21,011  ERROR  [JNJ] Not enough data — aborting
+2026-03-23 15:20:21,012  INFO  
+--------------------------------------------------
+Training UNH
+2026-03-23 15:20:21,014  INFO  [UNH] Fetching data …
+2026-03-23 15:20:24,325  ERROR  [UNH] Not enough data — aborting
+2026-03-23 15:20:24,326  INFO  
+--------------------------------------------------
+Training PFE
+2026-03-23 15:20:24,326  INFO  [PFE] Fetching data …
+2026-03-23 15:20:27,624  ERROR  [PFE] Not enough data — aborting
+2026-03-23 15:20:27,625  INFO  
+--------------------------------------------------
+Training ABBV
+2026-03-23 15:20:27,625  INFO  [ABBV] Fetching data …
+2026-03-23 15:20:31,041  ERROR  [ABBV] Not enough data — aborting
+2026-03-23 15:20:31,042  INFO  
+--------------------------------------------------
+Training QQQ
+2026-03-23 15:20:31,043  INFO  [QQQ] Fetching data …
+2026-03-23 15:20:34,274  ERROR  [QQQ] Not enough data — aborting
+2026-03-23 15:20:34,275  INFO  
+--------------------------------------------------
+Training IWM
+2026-03-23 15:20:34,275  INFO  [IWM] Fetching data …
+2026-03-23 15:20:37,696  ERROR  [IWM] Not enough data — aborting
+2026-03-23 15:20:37,697  INFO  
+--------------------------------------------------
+Training DIA
+2026-03-23 15:20:37,697  INFO  [DIA] Fetching data …
+2026-03-23 15:20:41,072  ERROR  [DIA] Not enough data — aborting
+2026-03-23 15:20:41,073  INFO  
+--------------------------------------------------
+Training XLF
+2026-03-23 15:20:41,073  INFO  [XLF] Fetching data …
+2026-03-23 15:20:44,397  ERROR  [XLF] Not enough data — aborting
+2026-03-23 15:20:44,397  INFO  
+--------------------------------------------------
+Training XLK
+2026-03-23 15:20:44,398  INFO  [XLK] Fetching data …
+2026-03-23 15:20:47,712  ERROR  [XLK] Not enough data — aborting
+2026-03-23 15:20:47,713  INFO  
+--------------------------------------------------
+Training COIN
+2026-03-23 15:20:47,714  INFO  [COIN] Fetching data …
+2026-03-23 15:20:51,130  ERROR  [COIN] Not enough data — aborting
+2026-03-23 15:20:51,130  INFO  
+--------------------------------------------------
+Training PLTR
+2026-03-23 15:20:51,131  INFO  [PLTR] Fetching data …
+2026-03-23 15:20:54,604  ERROR  [PLTR] Not enough data — aborting
+2026-03-23 15:20:54,606  INFO  
+--------------------------------------------------
+Training RBLX
+2026-03-23 15:20:54,606  INFO  [RBLX] Fetching data …
+2026-03-23 15:20:57,788  ERROR  [RBLX] Not enough data — aborting
+2026-03-23 15:20:57,790  INFO  
+--------------------------------------------------
+Training UBER
+2026-03-23 15:20:57,790  INFO  [UBER] Fetching data …
+2026-03-23 15:21:00,960  ERROR  [UBER] Not enough data — aborting
+2026-03-23 15:21:00,961  INFO  
+--------------------------------------------------
+Training LYFT
+2026-03-23 15:21:00,962  INFO  [LYFT] Fetching data …
+2026-03-23 15:21:04,187  ERROR  [LYFT] Not enough data — aborting
+2026-03-23 15:21:28,951  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:21:28,958  INFO  [GOOGL] Fetching data …
+2026-03-23 15:21:33,453  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:21:33,455  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:21:33,456  INFO  [META] Fetching data …
+2026-03-23 15:21:36,125  ERROR  [META] Not enough data — aborting
+2026-03-23 15:21:36,128  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:21:36,129  INFO  [AMZN] Fetching data …
+2026-03-23 15:21:38,538  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:21:38,540  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:21:38,541  INFO  [AMD] Fetching data …
+2026-03-23 15:21:40,874  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:21:40,875  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:21:40,877  INFO  [CRM] Fetching data …
+2026-03-23 15:21:43,663  ERROR  [CRM] Not enough data — aborting
+2026-03-23 15:21:43,665  INFO  
+--------------------------------------------------
+Training ORCL
+2026-03-23 15:21:43,666  INFO  [ORCL] Fetching data …
+2026-03-23 15:21:46,137  ERROR  [ORCL] Not enough data — aborting
+2026-03-23 15:21:46,138  INFO  
+--------------------------------------------------
+Training ADBE
+2026-03-23 15:21:46,139  INFO  [ADBE] Fetching data …
+2026-03-23 15:21:48,492  ERROR  [ADBE] Not enough data — aborting
+2026-03-23 15:21:48,493  INFO  
+--------------------------------------------------
+Training INTC
+2026-03-23 15:21:48,494  INFO  [INTC] Fetching data …
+2026-03-23 15:21:50,904  ERROR  [INTC] Not enough data — aborting
+2026-03-23 15:21:50,905  INFO  
+--------------------------------------------------
+Training QCOM
+2026-03-23 15:21:50,906  INFO  [QCOM] Fetching data …
+2026-03-23 15:21:53,512  ERROR  [QCOM] Not enough data — aborting
+2026-03-23 15:21:53,513  INFO  
+--------------------------------------------------
+Training JPM
+2026-03-23 15:21:53,514  INFO  [JPM] Fetching data …
+2026-03-23 15:21:55,924  ERROR  [JPM] Not enough data — aborting
+2026-03-23 15:21:55,927  INFO  
+--------------------------------------------------
+Training BAC
+2026-03-23 15:21:55,928  INFO  [BAC] Fetching data …
+2026-03-23 15:21:58,400  ERROR  [BAC] Not enough data — aborting
+2026-03-23 15:21:58,401  INFO  
+--------------------------------------------------
+Training GS
+2026-03-23 15:21:58,402  INFO  [GS] Fetching data …
+2026-03-23 15:22:01,005  ERROR  [GS] Not enough data — aborting
+2026-03-23 15:22:01,006  INFO  
+--------------------------------------------------
+Training V
+2026-03-23 15:22:01,007  INFO  [V] Fetching data …
+2026-03-23 15:22:03,424  ERROR  [V] Not enough data — aborting
+2026-03-23 15:22:03,425  INFO  
+--------------------------------------------------
+Training MA
+2026-03-23 15:22:03,426  INFO  [MA] Fetching data …
+2026-03-23 15:22:06,184  ERROR  [MA] Not enough data — aborting
+2026-03-23 15:22:06,185  INFO  
+--------------------------------------------------
+Training JNJ
+2026-03-23 15:22:06,186  INFO  [JNJ] Fetching data …
+2026-03-23 15:22:09,071  ERROR  [JNJ] Not enough data — aborting
+2026-03-23 15:22:09,074  INFO  
+--------------------------------------------------
+Training UNH
+2026-03-23 15:22:09,075  INFO  [UNH] Fetching data …
+2026-03-23 15:22:11,523  ERROR  [UNH] Not enough data — aborting
+2026-03-23 15:22:11,524  INFO  
+--------------------------------------------------
+Training PFE
+2026-03-23 15:22:11,525  INFO  [PFE] Fetching data …
+2026-03-23 15:22:13,988  ERROR  [PFE] Not enough data — aborting
+2026-03-23 15:22:13,989  INFO  
+--------------------------------------------------
+Training ABBV
+2026-03-23 15:22:13,989  INFO  [ABBV] Fetching data …
+2026-03-23 15:22:16,745  ERROR  [ABBV] Not enough data — aborting
+2026-03-23 15:22:16,746  INFO  
+--------------------------------------------------
+Training QQQ
+2026-03-23 15:22:16,747  INFO  [QQQ] Fetching data …
+2026-03-23 15:22:19,003  ERROR  [QQQ] Not enough data — aborting
+2026-03-23 15:22:19,004  INFO  
+--------------------------------------------------
+Training IWM
+2026-03-23 15:22:19,005  INFO  [IWM] Fetching data …
+2026-03-23 15:22:21,660  ERROR  [IWM] Not enough data — aborting
+2026-03-23 15:22:21,661  INFO  
+--------------------------------------------------
+Training DIA
+2026-03-23 15:22:21,661  INFO  [DIA] Fetching data …
+2026-03-23 15:22:24,156  ERROR  [DIA] Not enough data — aborting
+2026-03-23 15:22:24,156  INFO  
+--------------------------------------------------
+Training XLF
+2026-03-23 15:22:24,157  INFO  [XLF] Fetching data …
+2026-03-23 15:22:27,082  ERROR  [XLF] Not enough data — aborting
+2026-03-23 15:22:27,083  INFO  
+--------------------------------------------------
+Training XLK
+2026-03-23 15:22:27,083  INFO  [XLK] Fetching data …
+2026-03-23 15:22:29,869  ERROR  [XLK] Not enough data — aborting
+2026-03-23 15:22:29,870  INFO  
+--------------------------------------------------
+Training COIN
+2026-03-23 15:22:29,871  INFO  [COIN] Fetching data …
+2026-03-23 15:22:32,206  ERROR  [COIN] Not enough data — aborting
+2026-03-23 15:22:32,206  INFO  
+--------------------------------------------------
+Training PLTR
+2026-03-23 15:22:32,207  INFO  [PLTR] Fetching data …
+2026-03-23 15:22:34,720  ERROR  [PLTR] Not enough data — aborting
+2026-03-23 15:22:34,721  INFO  
+--------------------------------------------------
+Training RBLX
+2026-03-23 15:22:34,722  INFO  [RBLX] Fetching data …
+2026-03-23 15:22:37,196  ERROR  [RBLX] Not enough data — aborting
+2026-03-23 15:22:37,196  INFO  
+--------------------------------------------------
+Training UBER
+2026-03-23 15:22:37,197  INFO  [UBER] Fetching data …
+2026-03-23 15:22:50,653  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:22:50,655  INFO  [GOOGL] Fetching data …
+2026-03-23 15:22:55,049  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:22:55,050  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:22:55,051  INFO  [META] Fetching data …
+2026-03-23 15:22:57,369  ERROR  [META] Not enough data — aborting
+2026-03-23 15:22:57,370  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:22:57,371  INFO  [AMZN] Fetching data …
+2026-03-23 15:22:59,827  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:22:59,829  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:22:59,829  INFO  [AMD] Fetching data …
+2026-03-23 15:23:02,595  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:23:02,597  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:23:02,598  INFO  [CRM] Fetching data …
+2026-03-23 15:23:04,958  ERROR  [CRM] Not enough data — aborting
+2026-03-23 15:23:13,325  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:23:13,326  INFO  [GOOGL] Fetching data …
+2026-03-23 15:23:17,968  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:23:17,969  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:23:17,970  INFO  [META] Fetching data …
+2026-03-23 15:23:20,323  ERROR  [META] Not enough data — aborting
+2026-03-23 15:23:20,324  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:23:20,325  INFO  [AMZN] Fetching data …
+2026-03-23 15:23:22,700  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:23:22,700  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:23:22,701  INFO  [AMD] Fetching data …
+2026-03-23 15:23:25,135  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:23:25,136  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:23:25,136  INFO  [CRM] Fetching data …
+2026-03-23 15:23:27,685  ERROR  [CRM] Not enough data — aborting
+2026-03-23 15:24:14,093  INFO  
+--------------------------------------------------
+Training AAPL
+2026-03-23 15:24:14,095  INFO  [AAPL] Fetching data …
+2026-03-23 15:24:18,616  INFO  [AAPL] Training ensemble on 301 bars …
+2026-03-23 15:24:22,254  INFO  [AAPL] Training done in 3.6s
