@@ -1402,3 +1402,28 @@ Training AAPL
 2026-03-23 15:24:14,095  INFO  [AAPL] Fetching data …
 2026-03-23 15:24:18,616  INFO  [AAPL] Training ensemble on 301 bars …
 2026-03-23 15:24:22,254  INFO  [AAPL] Training done in 3.6s
+2026-03-23 15:25:31,098  INFO  
+--------------------------------------------------
+Training GOOGL
+2026-03-23 15:25:31,101  INFO  [GOOGL] Fetching data …
+2026-03-23 15:25:35,564  ERROR  [GOOGL] Not enough data — aborting
+2026-03-23 15:25:35,565  INFO  
+--------------------------------------------------
+Training META
+2026-03-23 15:25:35,566  INFO  [META] Fetching data …
+2026-03-23 15:25:37,951  ERROR  [META] Not enough data — aborting
+2026-03-23 15:25:37,951  INFO  
+--------------------------------------------------
+Training AMZN
+2026-03-23 15:25:37,952  INFO  [AMZN] Fetching data …
+2026-03-23 15:25:40,295  ERROR  [AMZN] Not enough data — aborting
+2026-03-23 15:25:40,296  INFO  
+--------------------------------------------------
+Training AMD
+2026-03-23 15:25:40,297  INFO  [AMD] Fetching data …
+2026-03-23 15:25:42,781  ERROR  [AMD] Not enough data — aborting
+2026-03-23 15:25:42,782  INFO  
+--------------------------------------------------
+Training CRM
+2026-03-23 15:25:42,782  INFO  [CRM] Fetching data …
+2026-03-23 15:25:44,960  ERROR  [CRM] Not enough data — aborting

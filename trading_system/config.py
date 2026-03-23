@@ -10,7 +10,7 @@ from typing import List
 WATCHLIST = ["AAPL", "NVDA", "MSFT", "META", "GOOGL", "AMZN", "AMD", "TSLA", "SPY", "QQQ"]
 
 # ── Data ──────────────────────────────────────────────────────────────────────
-DATA_LOOKBACK_DAYS   = 365 * 3   # training window
+DATA_LOOKBACK_DAYS   = 365 * 2   # training window
 PREDICTION_HORIZON   = 3         # trading days ahead (24-72 h)
 MIN_HISTORY_ROWS     = 60       # minimum bars required to generate a signal
 
