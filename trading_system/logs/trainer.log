@@ -1668,3 +1668,723 @@ Training MSTR
 2026-03-23 15:47:43,066  INFO  [Alpaca] Connected (PAPER) — equity=$99942.55
 2026-03-23 15:47:43,070  INFO  Entering continuous loop. Press Ctrl+C to stop.
 2026-03-23 15:47:43,143  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:48:43,218  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:49:26,829  INFO  Shutting down …
+2026-03-23 15:49:26,903  INFO  State saved. Goodbye.
+2026-03-23 15:49:36,814  INFO  [Alpaca] Connected (PAPER) — equity=$99941.67
+2026-03-23 15:49:36,817  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 15:49:36,890  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 15:49:39,069  INFO  Shutting down …
+2026-03-23 15:49:39,149  INFO  State saved. Goodbye.
+2026-03-23 16:22:57,942  INFO  [Alpaca] Connected (PAPER) — equity=$99940.79
+2026-03-23 16:22:57,947  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 16:22:58,053  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:23:33,338  INFO  Shutting down …
+2026-03-23 16:23:33,436  INFO  State saved. Goodbye.
+2026-03-23 16:25:43,213  INFO  [Alpaca] Connected (PAPER) — equity=$99939.99
+2026-03-23 16:25:43,218  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-23 16:25:43,306  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:26:43,403  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:27:43,503  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:28:43,606  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:29:43,713  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:30:43,811  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:31:43,909  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:32:44,011  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:33:44,120  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:34:44,223  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:35:44,335  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:36:44,439  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:37:44,542  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:38:44,657  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:39:44,758  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:40:44,857  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:41:44,958  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:42:45,055  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:43:45,151  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:44:45,250  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:45:45,351  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:46:45,444  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:47:45,547  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:48:45,650  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:49:45,750  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:50:45,847  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:51:45,944  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:52:46,034  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:53:46,134  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:54:46,233  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:55:46,336  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:56:46,441  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:57:46,622  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:58:46,723  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 16:59:46,819  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:00:46,922  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:01:47,024  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:02:47,124  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:03:47,283  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:04:47,380  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:05:47,478  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:06:47,578  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:07:47,678  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:08:47,790  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:09:47,896  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:10:48,003  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:11:48,106  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:12:48,208  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:13:48,316  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:14:48,417  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:15:48,524  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:16:48,620  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:17:48,723  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:18:48,821  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:19:48,926  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:20:49,025  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:21:49,120  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:22:49,223  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:23:49,319  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:24:49,423  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:25:49,531  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:26:50,480  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:27:50,583  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:28:50,681  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:29:50,782  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:30:50,888  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:31:50,988  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:32:51,090  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:33:51,191  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:34:51,290  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:35:51,388  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:36:51,486  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:37:51,584  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:38:51,689  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:39:51,791  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:40:51,891  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:41:51,993  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:42:52,100  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:43:52,198  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:44:52,296  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:45:52,396  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:46:52,512  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:47:52,617  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:48:52,719  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:49:52,821  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:50:52,923  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:51:53,025  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:52:53,115  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:53:53,214  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:54:53,307  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:55:53,420  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:56:53,517  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:57:53,620  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:58:53,719  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 17:59:53,821  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:00:53,922  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:01:54,024  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:02:54,128  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:03:54,229  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:04:54,326  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:05:54,426  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:06:54,535  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:07:54,632  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:08:54,724  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:09:54,823  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:10:54,925  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:11:55,027  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:12:55,133  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:13:55,348  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:14:55,459  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:15:55,560  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:16:55,665  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:17:55,770  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:18:55,863  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:19:55,967  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:20:56,071  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:21:56,168  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:22:56,267  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:23:56,358  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:24:56,458  INFO  Market closed. Next open in ~0h 0m.
+2026-03-23 18:25:56,554  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 01:31:05,781  INFO  Market closed. Next open in ~7h 58m.
+2026-03-24 02:31:06,851  INFO  Market closed. Next open in ~6h 58m.
+2026-03-24 03:31:07,798  INFO  Market closed. Next open in ~5h 58m.
+2026-03-24 09:44:12,521  INFO  --- Starting cycle at 09:44:12 ---
+2026-03-24 09:44:23,298  INFO    AAPL -> BUY  conf=70%  p_up=0.69
+2026-03-24 09:44:23,968  INFO    NVDA -> BUY  conf=80%  p_up=0.79
+2026-03-24 09:44:24,694  INFO    MSFT -> BUY  conf=74%  p_up=0.72
+2026-03-24 09:44:25,302  INFO    GOOGL -> SELL  conf=75%  p_up=0.27
+2026-03-24 09:44:25,995  INFO    META -> HOLD  conf=71%  p_up=0.29
+2026-03-24 09:44:26,628  INFO    AMZN -> HOLD  conf=62%  p_up=0.62
+2026-03-24 09:44:27,345  INFO    AMD -> HOLD  conf=57%  p_up=0.43
+2026-03-24 09:44:28,029  INFO    TSLA -> HOLD  conf=89%  p_up=0.11
+2026-03-24 09:44:28,727  INFO    CRM -> HOLD  conf=65%  p_up=0.65
+2026-03-24 09:44:29,636  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 09:44:30,358  INFO    ADBE -> HOLD  conf=77%  p_up=0.23
+2026-03-24 09:44:31,061  INFO    INTC -> HOLD  conf=58%  p_up=0.42
+2026-03-24 09:44:31,766  INFO    QCOM -> HOLD  conf=77%  p_up=0.23
+2026-03-24 09:44:32,446  INFO    JPM -> HOLD  conf=74%  p_up=0.26
+2026-03-24 09:44:33,173  INFO    BAC -> HOLD  conf=71%  p_up=0.71
+2026-03-24 09:44:33,869  INFO    GS -> HOLD  conf=85%  p_up=0.15
+2026-03-24 09:44:34,485  INFO    V -> HOLD  conf=51%  p_up=0.49
+2026-03-24 09:44:35,170  INFO    MA -> HOLD  conf=63%  p_up=0.37
+2026-03-24 09:44:35,903  INFO    JNJ -> HOLD  conf=53%  p_up=0.53
+2026-03-24 09:44:36,569  INFO    UNH -> HOLD  conf=59%  p_up=0.41
+2026-03-24 09:44:37,227  INFO    PFE -> HOLD  conf=61%  p_up=0.39
+2026-03-24 09:44:38,000  INFO    ABBV -> HOLD  conf=59%  p_up=0.59
+2026-03-24 09:44:38,642  INFO    QQQ -> HOLD  conf=79%  p_up=0.21
+2026-03-24 09:44:39,292  INFO    IWM -> HOLD  conf=59%  p_up=0.41
+2026-03-24 09:44:39,960  INFO    DIA -> HOLD  conf=70%  p_up=0.30
+2026-03-24 09:44:40,625  INFO    XLF -> HOLD  conf=82%  p_up=0.18
+2026-03-24 09:44:41,308  INFO    XLK -> HOLD  conf=68%  p_up=0.32
+2026-03-24 09:44:41,952  INFO    COIN -> HOLD  conf=70%  p_up=0.30
+2026-03-24 09:44:42,580  INFO    PLTR -> HOLD  conf=73%  p_up=0.27
+2026-03-24 09:44:43,145  INFO    RBLX -> HOLD  conf=51%  p_up=0.51
+2026-03-24 09:44:43,910  INFO    UBER -> HOLD  conf=79%  p_up=0.21
+2026-03-24 09:44:44,508  INFO    LYFT -> HOLD  conf=69%  p_up=0.31
+2026-03-24 09:44:45,170  INFO    NFLX -> HOLD  conf=51%  p_up=0.49
+2026-03-24 09:44:46,069  INFO    SNOW -> HOLD  conf=77%  p_up=0.77
+2026-03-24 09:44:46,674  INFO    MSTR -> HOLD  conf=83%  p_up=0.17
+2026-03-24 09:44:47,314  INFO    SPY -> HOLD  conf=52%  p_up=0.52
+2026-03-24 09:44:48,821  INFO  [Executor] Portfolio heat = 0.1% open positions = 3
+2026-03-24 09:44:48,823  INFO  [Executor] AAPL signal reversal — closing existing short
+2026-03-24 09:44:48,991  INFO  [Alpaca] Close position submitted for AAPL
+2026-03-24 09:44:48,992  INFO  [Executor] NVDA signal reversal — closing existing short
+2026-03-24 09:44:49,085  INFO  [Alpaca] Close position submitted for NVDA
+2026-03-24 09:44:49,089  INFO  [Executor] MSFT signal reversal — closing existing short
+2026-03-24 09:44:49,181  INFO  [Alpaca] Close position submitted for MSFT
+2026-03-24 09:44:49,182  INFO  [Executor] Entering SELL GOOGL qty=6.0000  entry=296.0200  SL=301.9400  TP=284.1800
+2026-03-24 09:44:49,316  INFO  [Alpaca] Bracket submitted for GOOGL — SL=301.9400  TP=284.1800
+2026-03-24 09:44:49,318  INFO  [Executor] SKIP META — Below confidence threshold
+2026-03-24 09:44:49,319  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 09:44:49,319  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 09:44:49,319  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 09:44:49,320  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 09:44:49,323  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 09:44:49,324  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 09:44:49,325  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 09:44:49,326  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 09:44:49,328  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 09:44:49,328  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 09:44:49,329  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 09:44:49,329  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 09:44:49,330  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 09:44:49,330  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 09:44:49,331  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 09:44:49,331  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 09:44:49,331  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 09:44:49,332  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 09:44:49,332  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 09:44:49,333  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 09:44:49,334  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 09:44:49,334  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 09:44:49,335  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 09:44:49,335  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 09:44:49,336  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 09:44:49,336  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 09:44:49,337  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 09:44:49,337  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 09:44:49,338  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 09:44:49,339  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 09:44:49,340  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 10:12:25,372  INFO  Shutting down …
+2026-03-24 10:12:25,478  INFO  State saved. Goodbye.
+2026-03-24 10:19:02,386  INFO  [Alpaca] Connected (PAPER) — equity=$99981.45
+2026-03-24 10:19:02,422  INFO  Entering continuous loop. Press Ctrl+C to stop.
+2026-03-24 10:19:02,525  INFO  --- Starting cycle at 10:19:02 ---
+2026-03-24 10:19:03,614  INFO    AAPL -> BUY  conf=90%  p_up=0.88
+2026-03-24 10:19:04,122  INFO    NVDA -> BUY  conf=81%  p_up=0.80
+2026-03-24 10:19:04,547  INFO    MSFT -> BUY  conf=74%  p_up=0.72
+2026-03-24 10:19:05,045  INFO    GOOGL -> SELL  conf=79%  p_up=0.23
+2026-03-24 10:19:05,610  INFO    META -> HOLD  conf=84%  p_up=0.16
+2026-03-24 10:19:06,023  INFO    AMZN -> HOLD  conf=63%  p_up=0.63
+2026-03-24 10:19:06,442  INFO    AMD -> HOLD  conf=60%  p_up=0.40
+2026-03-24 10:19:06,932  INFO    TSLA -> HOLD  conf=76%  p_up=0.24
+2026-03-24 10:19:07,385  INFO    CRM -> HOLD  conf=55%  p_up=0.55
+2026-03-24 10:19:07,856  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 10:19:08,364  INFO    ADBE -> HOLD  conf=82%  p_up=0.18
+2026-03-24 10:19:08,815  INFO    INTC -> HOLD  conf=56%  p_up=0.43
+2026-03-24 10:19:09,527  INFO    QCOM -> HOLD  conf=78%  p_up=0.22
+2026-03-24 10:19:10,695  INFO    JPM -> HOLD  conf=65%  p_up=0.35
+2026-03-24 10:19:11,442  INFO    BAC -> HOLD  conf=68%  p_up=0.68
+2026-03-24 10:19:12,501  INFO    GS -> HOLD  conf=86%  p_up=0.14
+2026-03-24 10:19:13,195  INFO    V -> HOLD  conf=53%  p_up=0.47
+2026-03-24 10:19:13,810  INFO    MA -> HOLD  conf=66%  p_up=0.34
+2026-03-24 10:19:14,317  INFO    JNJ -> HOLD  conf=55%  p_up=0.55
+2026-03-24 10:19:14,774  INFO    UNH -> HOLD  conf=56%  p_up=0.44
+2026-03-24 10:19:15,375  INFO    PFE -> HOLD  conf=62%  p_up=0.38
+2026-03-24 10:19:15,981  INFO    ABBV -> HOLD  conf=59%  p_up=0.59
+2026-03-24 10:19:16,540  INFO    QQQ -> HOLD  conf=79%  p_up=0.21
+2026-03-24 10:19:16,991  INFO    IWM -> HOLD  conf=61%  p_up=0.39
+2026-03-24 10:19:17,500  INFO    DIA -> HOLD  conf=70%  p_up=0.30
+2026-03-24 10:19:17,981  INFO    XLF -> HOLD  conf=81%  p_up=0.19
+2026-03-24 10:19:18,413  INFO    XLK -> HOLD  conf=67%  p_up=0.33
+2026-03-24 10:19:18,946  INFO    COIN -> HOLD  conf=76%  p_up=0.24
+2026-03-24 10:19:19,438  INFO    PLTR -> HOLD  conf=67%  p_up=0.33
+2026-03-24 10:19:19,938  INFO    RBLX -> HOLD  conf=51%  p_up=0.49
+2026-03-24 10:19:20,365  INFO    UBER -> HOLD  conf=82%  p_up=0.18
+2026-03-24 10:19:20,750  INFO    LYFT -> HOLD  conf=74%  p_up=0.26
+2026-03-24 10:19:21,289  INFO    NFLX -> HOLD  conf=55%  p_up=0.45
+2026-03-24 10:19:21,854  INFO    SNOW -> HOLD  conf=64%  p_up=0.64
+2026-03-24 10:19:22,558  INFO    MSTR -> HOLD  conf=80%  p_up=0.20
+2026-03-24 10:19:23,282  INFO    SPY -> HOLD  conf=52%  p_up=0.52
+2026-03-24 10:19:24,146  INFO  [Executor] Portfolio heat = 0.0% open positions = 1
+2026-03-24 10:19:24,147  INFO  [Executor] Entering BUY AAPL qty=8.0000  entry=246.0600  SL=241.1400  TP=255.9000
+2026-03-24 10:19:24,244  INFO  [Alpaca] Bracket submitted for AAPL — SL=241.1400  TP=255.9000
+2026-03-24 10:19:24,245  INFO  [Executor] Entering BUY NVDA qty=11.0000  entry=175.3700  SL=171.8600  TP=182.3800
+2026-03-24 10:19:24,344  INFO  [Alpaca] Bracket submitted for NVDA — SL=171.8600  TP=182.3800
+2026-03-24 10:19:24,345  INFO  [Executor] Entering BUY MSFT qty=5.0000  entry=374.0250  SL=366.5400  TP=388.9900
+2026-03-24 10:19:24,445  INFO  [Alpaca] Bracket submitted for MSFT — SL=366.5400  TP=388.9900
+2026-03-24 10:19:24,446  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 10:19:24,446  INFO  [Executor] SKIP META — Below confidence threshold
+2026-03-24 10:19:24,447  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 10:19:24,447  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 10:19:24,448  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 10:19:24,448  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 10:19:24,449  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 10:19:24,449  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 10:19:24,449  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 10:19:24,450  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 10:19:24,450  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 10:19:24,450  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 10:19:24,450  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 10:19:24,451  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 10:19:24,451  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 10:19:24,451  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 10:19:24,454  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 10:19:24,454  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 10:19:24,455  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 10:19:24,455  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 10:19:24,455  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 10:19:24,455  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 10:19:24,455  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 10:19:24,456  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 10:19:24,456  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 10:19:24,456  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 10:19:24,456  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 10:19:24,456  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 10:19:24,457  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 10:19:24,457  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 10:19:24,457  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 10:19:24,457  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 10:19:24,457  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 10:49:27,465  INFO  --- Starting cycle at 10:49:27 ---
+2026-03-24 10:49:28,355  INFO    AAPL -> HOLD  conf=55%  p_up=0.55
+2026-03-24 10:49:28,844  INFO    NVDA -> BUY  conf=80%  p_up=0.79
+2026-03-24 10:49:29,326  INFO    MSFT -> BUY  conf=76%  p_up=0.74
+2026-03-24 10:49:29,808  INFO    GOOGL -> SELL  conf=80%  p_up=0.22
+2026-03-24 10:49:30,410  INFO    META -> SELL  conf=75%  p_up=0.26
+2026-03-24 10:49:30,899  INFO    AMZN -> HOLD  conf=68%  p_up=0.68
+2026-03-24 10:49:31,326  INFO    AMD -> HOLD  conf=60%  p_up=0.40
+2026-03-24 10:49:31,734  INFO    TSLA -> HOLD  conf=89%  p_up=0.11
+2026-03-24 10:49:32,191  INFO    CRM -> HOLD  conf=57%  p_up=0.57
+2026-03-24 10:49:32,657  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 10:49:33,080  INFO    ADBE -> HOLD  conf=80%  p_up=0.20
+2026-03-24 10:49:33,606  INFO    INTC -> HOLD  conf=57%  p_up=0.43
+2026-03-24 10:49:34,119  INFO    QCOM -> HOLD  conf=80%  p_up=0.20
+2026-03-24 10:49:34,641  INFO    JPM -> HOLD  conf=70%  p_up=0.30
+2026-03-24 10:49:35,287  INFO    BAC -> HOLD  conf=68%  p_up=0.68
+2026-03-24 10:49:35,828  INFO    GS -> HOLD  conf=86%  p_up=0.14
+2026-03-24 10:49:36,257  INFO    V -> HOLD  conf=53%  p_up=0.47
+2026-03-24 10:49:36,730  INFO    MA -> HOLD  conf=63%  p_up=0.37
+2026-03-24 10:49:37,282  INFO    JNJ -> HOLD  conf=53%  p_up=0.53
+2026-03-24 10:49:37,809  INFO    UNH -> HOLD  conf=58%  p_up=0.42
+2026-03-24 10:49:38,339  INFO    PFE -> HOLD  conf=57%  p_up=0.43
+2026-03-24 10:49:38,820  INFO    ABBV -> HOLD  conf=55%  p_up=0.55
+2026-03-24 10:49:39,370  INFO    QQQ -> HOLD  conf=76%  p_up=0.24
+2026-03-24 10:49:39,837  INFO    IWM -> HOLD  conf=61%  p_up=0.39
+2026-03-24 10:49:40,411  INFO    DIA -> HOLD  conf=72%  p_up=0.28
+2026-03-24 10:49:40,882  INFO    XLF -> HOLD  conf=82%  p_up=0.18
+2026-03-24 10:49:41,441  INFO    XLK -> HOLD  conf=66%  p_up=0.34
+2026-03-24 10:49:41,914  INFO    COIN -> HOLD  conf=69%  p_up=0.31
+2026-03-24 10:49:42,361  INFO    PLTR -> HOLD  conf=74%  p_up=0.26
+2026-03-24 10:49:42,792  INFO    RBLX -> HOLD  conf=51%  p_up=0.51
+2026-03-24 10:49:43,327  INFO    UBER -> HOLD  conf=76%  p_up=0.24
+2026-03-24 10:49:43,736  INFO    LYFT -> HOLD  conf=75%  p_up=0.25
+2026-03-24 10:49:44,175  INFO    NFLX -> HOLD  conf=53%  p_up=0.47
+2026-03-24 10:49:44,638  INFO    SNOW -> HOLD  conf=66%  p_up=0.66
+2026-03-24 10:49:45,057  INFO    MSTR -> HOLD  conf=81%  p_up=0.19
+2026-03-24 10:49:45,550  INFO    SPY -> HOLD  conf=54%  p_up=0.54
+2026-03-24 10:49:46,303  INFO  [Executor] Portfolio heat = 0.2% open positions = 4
+2026-03-24 10:49:46,304  INFO  [Executor] SKIP AAPL — Below confidence threshold
+2026-03-24 10:49:46,305  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-24 10:49:46,306  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-24 10:49:46,306  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 10:49:46,306  INFO  [Executor] Entering SELL META qty=3.0000  entry=594.6200  SL=606.5100  TP=570.8400
+2026-03-24 10:49:46,414  INFO  [Alpaca] Bracket submitted for META — SL=606.5100  TP=570.8400
+2026-03-24 10:49:46,415  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 10:49:46,415  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 10:49:46,415  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 10:49:46,416  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 10:49:46,416  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 10:49:46,417  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 10:49:46,417  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 10:49:46,417  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 10:49:46,418  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 10:49:46,418  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 10:49:46,418  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 10:49:46,419  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 10:49:46,420  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 10:49:46,420  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 10:49:46,421  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 10:49:46,421  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 10:49:46,421  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 10:49:46,422  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 10:49:46,425  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 10:49:46,426  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 10:49:46,427  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 10:49:46,427  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 10:49:46,427  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 10:49:46,428  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 10:49:46,428  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 10:49:46,428  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 10:49:46,429  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 10:49:46,429  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 10:49:46,429  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 10:49:46,430  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 10:49:46,430  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 11:19:49,544  INFO  --- Starting cycle at 11:19:49 ---
+2026-03-24 11:19:50,281  INFO    AAPL -> BUY  conf=66%  p_up=0.65
+2026-03-24 11:19:50,734  INFO    NVDA -> BUY  conf=82%  p_up=0.81
+2026-03-24 11:19:51,127  INFO    MSFT -> BUY  conf=86%  p_up=0.84
+2026-03-24 11:19:51,612  INFO    GOOGL -> SELL  conf=83%  p_up=0.19
+2026-03-24 11:19:52,030  INFO    META -> HOLD  conf=71%  p_up=0.29
+2026-03-24 11:19:52,425  INFO    AMZN -> HOLD  conf=65%  p_up=0.65
+2026-03-24 11:19:52,808  INFO    AMD -> HOLD  conf=52%  p_up=0.48
+2026-03-24 11:19:53,199  INFO    TSLA -> HOLD  conf=73%  p_up=0.27
+2026-03-24 11:19:53,574  INFO    CRM -> HOLD  conf=65%  p_up=0.65
+2026-03-24 11:19:54,026  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 11:19:54,415  INFO    ADBE -> HOLD  conf=80%  p_up=0.20
+2026-03-24 11:19:54,858  INFO    INTC -> HOLD  conf=68%  p_up=0.32
+2026-03-24 11:19:55,325  INFO    QCOM -> HOLD  conf=76%  p_up=0.24
+2026-03-24 11:19:55,783  INFO    JPM -> HOLD  conf=71%  p_up=0.29
+2026-03-24 11:19:56,210  INFO    BAC -> HOLD  conf=68%  p_up=0.68
+2026-03-24 11:19:57,045  INFO    GS -> HOLD  conf=80%  p_up=0.20
+2026-03-24 11:19:57,449  INFO    V -> HOLD  conf=50%  p_up=0.50
+2026-03-24 11:19:57,873  INFO    MA -> HOLD  conf=62%  p_up=0.38
+2026-03-24 11:19:58,407  INFO    JNJ -> HOLD  conf=53%  p_up=0.53
+2026-03-24 11:19:58,971  INFO    UNH -> HOLD  conf=56%  p_up=0.44
+2026-03-24 11:19:59,523  INFO    PFE -> HOLD  conf=57%  p_up=0.43
+2026-03-24 11:19:59,932  INFO    ABBV -> HOLD  conf=52%  p_up=0.52
+2026-03-24 11:20:00,437  INFO    QQQ -> HOLD  conf=72%  p_up=0.28
+2026-03-24 11:20:00,979  INFO    IWM -> HOLD  conf=52%  p_up=0.52
+2026-03-24 11:20:01,456  INFO    DIA -> HOLD  conf=69%  p_up=0.31
+2026-03-24 11:20:01,940  INFO    XLF -> HOLD  conf=83%  p_up=0.17
+2026-03-24 11:20:02,477  INFO    XLK -> HOLD  conf=55%  p_up=0.45
+2026-03-24 11:20:03,012  INFO    COIN -> HOLD  conf=59%  p_up=0.41
+2026-03-24 11:20:03,412  INFO    PLTR -> HOLD  conf=63%  p_up=0.37
+2026-03-24 11:20:03,791  INFO    RBLX -> HOLD  conf=53%  p_up=0.53
+2026-03-24 11:20:04,231  INFO    UBER -> HOLD  conf=81%  p_up=0.19
+2026-03-24 11:20:04,659  INFO    LYFT -> HOLD  conf=63%  p_up=0.37
+2026-03-24 11:20:05,108  INFO    NFLX -> HOLD  conf=51%  p_up=0.49
+2026-03-24 11:20:05,512  INFO    SNOW -> HOLD  conf=79%  p_up=0.79
+2026-03-24 11:20:05,936  INFO    MSTR -> HOLD  conf=87%  p_up=0.13
+2026-03-24 11:20:06,388  INFO    SPY -> HOLD  conf=59%  p_up=0.59
+2026-03-24 11:20:07,742  INFO  [Executor] Portfolio heat = 0.2% open positions = 5
+2026-03-24 11:20:07,742  INFO  [Executor] SKIP AAPL — Already in position (same direction)
+2026-03-24 11:20:07,743  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-24 11:20:07,743  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-24 11:20:07,744  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 11:20:07,744  INFO  [Executor] SKIP META — Below confidence threshold
+2026-03-24 11:20:07,744  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 11:20:07,745  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 11:20:07,745  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 11:20:07,746  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 11:20:07,746  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 11:20:07,746  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 11:20:07,747  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 11:20:07,747  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 11:20:07,747  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 11:20:07,748  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 11:20:07,748  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 11:20:07,749  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 11:20:07,749  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 11:20:07,750  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 11:20:07,750  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 11:20:07,751  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 11:20:07,751  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 11:20:07,751  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 11:20:07,752  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 11:20:07,752  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 11:20:07,752  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 11:20:07,753  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 11:20:07,753  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 11:20:07,753  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 11:20:07,753  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 11:20:07,754  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 11:20:07,754  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 11:20:07,755  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 11:20:07,755  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 11:20:07,755  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 11:20:07,756  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 11:50:12,441  INFO  --- Starting cycle at 11:50:12 ---
+2026-03-24 11:50:13,132  INFO    AAPL -> HOLD  conf=63%  p_up=0.63
+2026-03-24 11:50:13,650  INFO    NVDA -> BUY  conf=82%  p_up=0.81
+2026-03-24 11:50:14,438  INFO    MSFT -> BUY  conf=83%  p_up=0.81
+2026-03-24 11:50:15,790  INFO    GOOGL -> SELL  conf=82%  p_up=0.20
+2026-03-24 11:50:16,389  INFO    META -> SELL  conf=68%  p_up=0.33
+2026-03-24 11:50:16,812  INFO    AMZN -> HOLD  conf=68%  p_up=0.68
+2026-03-24 11:50:17,346  INFO    AMD -> HOLD  conf=56%  p_up=0.44
+2026-03-24 11:50:17,727  INFO    TSLA -> HOLD  conf=73%  p_up=0.27
+2026-03-24 11:50:18,200  INFO    CRM -> HOLD  conf=65%  p_up=0.65
+2026-03-24 11:50:18,614  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 11:50:19,106  INFO    ADBE -> HOLD  conf=78%  p_up=0.22
+2026-03-24 11:50:21,737  INFO    INTC -> HOLD  conf=68%  p_up=0.32
+2026-03-24 11:50:22,224  INFO    QCOM -> HOLD  conf=77%  p_up=0.23
+2026-03-24 11:50:22,741  INFO    JPM -> HOLD  conf=71%  p_up=0.29
+2026-03-24 11:50:23,302  INFO    BAC -> HOLD  conf=68%  p_up=0.68
+2026-03-24 11:50:23,846  INFO    GS -> HOLD  conf=82%  p_up=0.18
+2026-03-24 11:50:24,236  INFO    V -> HOLD  conf=52%  p_up=0.48
+2026-03-24 11:50:24,698  INFO    MA -> HOLD  conf=61%  p_up=0.39
+2026-03-24 11:50:25,211  INFO    JNJ -> HOLD  conf=54%  p_up=0.54
+2026-03-24 11:50:25,644  INFO    UNH -> HOLD  conf=57%  p_up=0.43
+2026-03-24 11:50:26,112  INFO    PFE -> HOLD  conf=56%  p_up=0.44
+2026-03-24 11:50:26,601  INFO    ABBV -> HOLD  conf=51%  p_up=0.51
+2026-03-24 11:50:27,054  INFO    QQQ -> HOLD  conf=84%  p_up=0.16
+2026-03-24 11:50:27,501  INFO    IWM -> HOLD  conf=56%  p_up=0.44
+2026-03-24 11:50:28,039  INFO    DIA -> HOLD  conf=70%  p_up=0.30
+2026-03-24 11:50:28,472  INFO    XLF -> HOLD  conf=83%  p_up=0.17
+2026-03-24 11:50:28,950  INFO    XLK -> HOLD  conf=55%  p_up=0.45
+2026-03-24 11:50:29,338  INFO    COIN -> HOLD  conf=55%  p_up=0.45
+2026-03-24 11:50:29,810  INFO    PLTR -> HOLD  conf=69%  p_up=0.31
+2026-03-24 11:50:30,319  INFO    RBLX -> HOLD  conf=53%  p_up=0.53
+2026-03-24 11:50:30,733  INFO    UBER -> HOLD  conf=84%  p_up=0.16
+2026-03-24 11:50:31,259  INFO    LYFT -> HOLD  conf=67%  p_up=0.33
+2026-03-24 11:50:31,680  INFO    NFLX -> HOLD  conf=51%  p_up=0.51
+2026-03-24 11:50:32,052  INFO    SNOW -> HOLD  conf=66%  p_up=0.66
+2026-03-24 11:50:32,444  INFO    MSTR -> HOLD  conf=88%  p_up=0.12
+2026-03-24 11:50:32,986  INFO    SPY -> HOLD  conf=59%  p_up=0.59
+2026-03-24 11:50:33,758  INFO  [Executor] Portfolio heat = 0.2% open positions = 5
+2026-03-24 11:50:33,759  INFO  [Executor] SKIP AAPL — Below confidence threshold
+2026-03-24 11:50:33,759  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-24 11:50:33,759  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-24 11:50:33,760  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 11:50:33,760  INFO  [Executor] SKIP META — Already in position (same direction)
+2026-03-24 11:50:33,760  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 11:50:33,760  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 11:50:33,761  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 11:50:33,762  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 11:50:33,763  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 11:50:33,763  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 11:50:33,763  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 11:50:33,763  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 11:50:33,763  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 11:50:33,764  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 11:50:33,764  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 11:50:33,764  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 11:50:33,764  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 11:50:33,765  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 11:50:33,765  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 11:50:33,769  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 11:50:33,769  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 11:50:33,769  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 11:50:33,769  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 11:50:33,769  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 11:50:33,770  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 12:20:36,750  INFO  --- Starting cycle at 12:20:36 ---
+2026-03-24 12:20:37,278  INFO    AAPL -> HOLD  conf=61%  p_up=0.61
+2026-03-24 12:20:37,758  INFO    NVDA -> BUY  conf=79%  p_up=0.78
+2026-03-24 12:20:38,280  INFO    MSFT -> BUY  conf=75%  p_up=0.73
+2026-03-24 12:20:38,752  INFO    GOOGL -> SELL  conf=85%  p_up=0.17
+2026-03-24 12:20:39,236  INFO    META -> SELL  conf=70%  p_up=0.31
+2026-03-24 12:20:39,677  INFO    AMZN -> HOLD  conf=67%  p_up=0.67
+2026-03-24 12:20:40,179  INFO    AMD -> HOLD  conf=58%  p_up=0.42
+2026-03-24 12:20:40,629  INFO    TSLA -> HOLD  conf=76%  p_up=0.24
+2026-03-24 12:20:41,026  INFO    CRM -> HOLD  conf=62%  p_up=0.62
+2026-03-24 12:20:41,546  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 12:20:41,963  INFO    ADBE -> HOLD  conf=79%  p_up=0.21
+2026-03-24 12:20:42,425  INFO    INTC -> HOLD  conf=56%  p_up=0.44
+2026-03-24 12:20:42,994  INFO    QCOM -> HOLD  conf=77%  p_up=0.23
+2026-03-24 12:20:43,538  INFO    JPM -> HOLD  conf=71%  p_up=0.29
+2026-03-24 12:20:44,001  INFO    BAC -> HOLD  conf=68%  p_up=0.68
+2026-03-24 12:20:44,468  INFO    GS -> HOLD  conf=82%  p_up=0.18
+2026-03-24 12:20:44,963  INFO    V -> HOLD  conf=52%  p_up=0.48
+2026-03-24 12:20:45,451  INFO    MA -> HOLD  conf=61%  p_up=0.39
+2026-03-24 12:20:45,923  INFO    JNJ -> HOLD  conf=53%  p_up=0.53
+2026-03-24 12:20:46,421  INFO    UNH -> HOLD  conf=60%  p_up=0.40
+2026-03-24 12:20:46,935  INFO    PFE -> HOLD  conf=57%  p_up=0.43
+2026-03-24 12:20:47,351  INFO    ABBV -> HOLD  conf=57%  p_up=0.57
+2026-03-24 12:20:47,885  INFO    QQQ -> HOLD  conf=74%  p_up=0.26
+2026-03-24 12:20:48,371  INFO    IWM -> HOLD  conf=61%  p_up=0.39
+2026-03-24 12:20:48,929  INFO    DIA -> HOLD  conf=69%  p_up=0.31
+2026-03-24 12:20:49,445  INFO    XLF -> HOLD  conf=83%  p_up=0.17
+2026-03-24 12:20:49,901  INFO    XLK -> HOLD  conf=62%  p_up=0.38
+2026-03-24 12:20:50,317  INFO    COIN -> HOLD  conf=72%  p_up=0.28
+2026-03-24 12:20:50,737  INFO    PLTR -> HOLD  conf=62%  p_up=0.38
+2026-03-24 12:20:51,171  INFO    RBLX -> HOLD  conf=50%  p_up=0.50
+2026-03-24 12:20:51,569  INFO    UBER -> HOLD  conf=80%  p_up=0.20
+2026-03-24 12:20:51,941  INFO    LYFT -> HOLD  conf=67%  p_up=0.33
+2026-03-24 12:20:52,360  INFO    NFLX -> HOLD  conf=51%  p_up=0.49
+2026-03-24 12:20:52,831  INFO    SNOW -> HOLD  conf=66%  p_up=0.66
+2026-03-24 12:20:53,233  INFO    MSTR -> HOLD  conf=85%  p_up=0.15
+2026-03-24 12:20:55,408  ERROR  
+1 Failed download:
+2026-03-24 12:20:55,410  ERROR  ['SPY']: ConnectionError('Failed to perform, curl: (7) Failed to connect to query2.finance.yahoo.com port 443 after 2003 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-24 12:20:55,518  INFO    SPY -> HOLD  conf=53%  p_up=0.53
+2026-03-24 12:20:56,813  INFO  [Executor] Portfolio heat = 0.2% open positions = 5
+2026-03-24 12:20:56,814  INFO  [Executor] SKIP AAPL — Below confidence threshold
+2026-03-24 12:20:56,814  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-24 12:20:56,814  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-24 12:20:56,814  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 12:20:56,815  INFO  [Executor] SKIP META — Already in position (same direction)
+2026-03-24 12:20:56,815  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 12:20:56,815  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 12:20:56,815  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 12:20:56,815  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 12:20:56,816  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 12:20:56,816  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 12:20:56,816  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 12:20:56,816  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 12:20:56,816  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 12:20:56,817  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 12:20:56,818  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 12:20:56,822  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 12:20:56,822  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 12:20:56,822  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 12:20:56,822  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 12:20:56,823  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 12:20:56,823  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 12:20:56,823  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 12:20:56,823  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 12:20:56,823  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 12:20:56,824  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 13:09:24,804  INFO  --- Starting cycle at 13:09:24 ---
+2026-03-24 13:09:27,057  INFO    AAPL -> HOLD  conf=56%  p_up=0.56
+2026-03-24 13:09:28,816  INFO    NVDA -> BUY  conf=79%  p_up=0.78
+2026-03-24 15:22:21,962  INFO    MSFT -> BUY  conf=76%  p_up=0.74
+2026-03-24 15:22:23,296  INFO    GOOGL -> SELL  conf=71%  p_up=0.31
+2026-03-24 15:22:24,474  INFO    META -> SELL  conf=72%  p_up=0.29
+2026-03-24 15:22:25,649  INFO    AMZN -> HOLD  conf=76%  p_up=0.76
+2026-03-24 15:22:26,468  INFO    AMD -> HOLD  conf=53%  p_up=0.53
+2026-03-24 15:22:27,665  INFO    TSLA -> HOLD  conf=87%  p_up=0.13
+2026-03-24 15:22:28,395  INFO    CRM -> HOLD  conf=60%  p_up=0.60
+2026-03-24 15:22:29,261  INFO    ORCL -> HOLD  conf=92%  p_up=0.08
+2026-03-24 15:22:29,982  INFO    ADBE -> HOLD  conf=70%  p_up=0.30
+2026-03-24 15:22:30,501  INFO    INTC -> HOLD  conf=63%  p_up=0.37
+2026-03-24 15:22:31,114  INFO    QCOM -> HOLD  conf=75%  p_up=0.25
+2026-03-24 15:22:31,738  INFO    JPM -> HOLD  conf=68%  p_up=0.32
+2026-03-24 15:22:32,368  INFO    BAC -> HOLD  conf=70%  p_up=0.70
+2026-03-24 15:22:36,720  INFO    GS -> HOLD  conf=82%  p_up=0.18
+2026-03-24 15:22:39,046  INFO    V -> HOLD  conf=57%  p_up=0.57
+2026-03-24 15:22:41,067  INFO    MA -> HOLD  conf=57%  p_up=0.43
+2026-03-24 15:22:43,805  INFO    JNJ -> HOLD  conf=58%  p_up=0.58
+2026-03-24 15:22:46,263  INFO    UNH -> HOLD  conf=62%  p_up=0.38
+2026-03-24 15:22:47,406  INFO    PFE -> HOLD  conf=58%  p_up=0.42
+2026-03-24 15:22:48,440  INFO    ABBV -> HOLD  conf=55%  p_up=0.55
+2026-03-24 15:22:49,222  INFO    QQQ -> HOLD  conf=74%  p_up=0.26
+2026-03-24 15:22:49,970  INFO    IWM -> HOLD  conf=56%  p_up=0.44
+2026-03-24 15:22:50,554  INFO    DIA -> HOLD  conf=72%  p_up=0.28
+2026-03-24 15:22:51,226  INFO    XLF -> HOLD  conf=81%  p_up=0.19
+2026-03-24 15:22:51,843  INFO    XLK -> HOLD  conf=71%  p_up=0.29
+2026-03-24 15:22:52,415  INFO    COIN -> HOLD  conf=66%  p_up=0.34
+2026-03-24 15:22:53,033  INFO    PLTR -> HOLD  conf=59%  p_up=0.41
+2026-03-24 15:22:53,512  INFO    RBLX -> HOLD  conf=60%  p_up=0.60
+2026-03-24 15:22:54,200  INFO    UBER -> HOLD  conf=83%  p_up=0.17
+2026-03-24 15:22:54,776  INFO    LYFT -> HOLD  conf=73%  p_up=0.27
+2026-03-24 15:22:55,318  INFO    NFLX -> HOLD  conf=53%  p_up=0.53
+2026-03-24 15:22:55,815  INFO    SNOW -> HOLD  conf=67%  p_up=0.67
+2026-03-24 15:22:56,363  INFO    MSTR -> HOLD  conf=87%  p_up=0.13
+2026-03-24 15:22:56,956  INFO    SPY -> HOLD  conf=57%  p_up=0.57
+2026-03-24 15:22:58,974  INFO  [Executor] Portfolio heat = 0.2% open positions = 5
+2026-03-24 15:22:58,975  INFO  [Executor] SKIP AAPL — Below confidence threshold
+2026-03-24 15:22:58,976  INFO  [Executor] SKIP NVDA — Already in position (same direction)
+2026-03-24 15:22:58,976  INFO  [Executor] SKIP MSFT — Already in position (same direction)
+2026-03-24 15:22:58,976  INFO  [Executor] SKIP GOOGL — Already in position (same direction)
+2026-03-24 15:22:58,977  INFO  [Executor] SKIP META — Already in position (same direction)
+2026-03-24 15:22:58,977  INFO  [Executor] SKIP AMZN — Below confidence threshold
+2026-03-24 15:22:58,978  INFO  [Executor] SKIP AMD — Below confidence threshold
+2026-03-24 15:22:58,978  INFO  [Executor] SKIP TSLA — Below confidence threshold
+2026-03-24 15:22:58,979  INFO  [Executor] SKIP CRM — Below confidence threshold
+2026-03-24 15:22:58,979  INFO  [Executor] SKIP ORCL — Below confidence threshold
+2026-03-24 15:22:58,980  INFO  [Executor] SKIP ADBE — Below confidence threshold
+2026-03-24 15:22:58,980  INFO  [Executor] SKIP INTC — Below confidence threshold
+2026-03-24 15:22:58,981  INFO  [Executor] SKIP QCOM — Below confidence threshold
+2026-03-24 15:22:58,981  INFO  [Executor] SKIP JPM — Below confidence threshold
+2026-03-24 15:22:58,982  INFO  [Executor] SKIP BAC — Below confidence threshold
+2026-03-24 15:22:58,983  INFO  [Executor] SKIP GS — Below confidence threshold
+2026-03-24 15:22:58,983  INFO  [Executor] SKIP V — Below confidence threshold
+2026-03-24 15:22:58,983  INFO  [Executor] SKIP MA — Below confidence threshold
+2026-03-24 15:22:58,984  INFO  [Executor] SKIP JNJ — Below confidence threshold
+2026-03-24 15:22:58,984  INFO  [Executor] SKIP UNH — Below confidence threshold
+2026-03-24 15:22:58,985  INFO  [Executor] SKIP PFE — Below confidence threshold
+2026-03-24 15:22:58,985  INFO  [Executor] SKIP ABBV — Below confidence threshold
+2026-03-24 15:22:58,986  INFO  [Executor] SKIP QQQ — Below confidence threshold
+2026-03-24 15:22:58,986  INFO  [Executor] SKIP IWM — Below confidence threshold
+2026-03-24 15:22:58,986  INFO  [Executor] SKIP DIA — Below confidence threshold
+2026-03-24 15:22:58,987  INFO  [Executor] SKIP XLF — Below confidence threshold
+2026-03-24 15:22:58,987  INFO  [Executor] SKIP XLK — Below confidence threshold
+2026-03-24 15:22:58,987  INFO  [Executor] SKIP COIN — Below confidence threshold
+2026-03-24 15:22:58,988  INFO  [Executor] SKIP PLTR — Below confidence threshold
+2026-03-24 15:22:58,988  INFO  [Executor] SKIP RBLX — Below confidence threshold
+2026-03-24 15:22:58,989  INFO  [Executor] SKIP UBER — Below confidence threshold
+2026-03-24 15:22:58,989  INFO  [Executor] SKIP LYFT — Below confidence threshold
+2026-03-24 15:22:58,989  INFO  [Executor] SKIP NFLX — Below confidence threshold
+2026-03-24 15:22:58,990  INFO  [Executor] SKIP SNOW — Below confidence threshold
+2026-03-24 15:22:58,990  INFO  [Executor] SKIP MSTR — Below confidence threshold
+2026-03-24 15:22:58,991  INFO  [Executor] SKIP SPY — Below confidence threshold
+2026-03-24 15:23:59,295  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:24:59,389  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:25:59,492  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:26:59,594  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:27:59,697  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:28:59,797  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:29:59,897  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:30:59,997  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:32:00,100  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:33:00,206  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:34:00,305  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:35:00,406  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:36:00,504  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:37:00,597  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:38:00,700  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:39:00,798  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:40:00,906  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:41:01,023  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:42:01,124  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:43:01,224  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:44:01,316  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:45:01,421  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:46:01,527  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:47:01,631  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:48:01,731  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:49:01,845  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:50:01,950  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:51:02,065  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:52:02,172  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:53:02,287  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:54:02,406  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:55:02,522  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:56:02,628  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:57:02,757  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:58:02,853  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 15:59:02,957  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:00:03,072  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:01:03,271  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:02:03,390  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:03:03,553  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:04:03,659  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:05:03,770  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:06:03,870  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:07:03,974  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:08:04,077  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:09:04,180  INFO  Market closed. Next open in ~0h 0m.
+2026-03-24 16:09:06,088  INFO  Shutting down …
+2026-03-24 16:09:06,210  INFO  State saved. Goodbye.

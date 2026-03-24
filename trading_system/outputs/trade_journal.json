@@ -583,5 +583,70 @@
     "position_pct": 2.0,
     "order_id": "ee1f26b6-fce2-43af-aa48-3d8a789568b2",
     "timestamp": "2026-03-23 14:39:21.996970"
+  },
+  {
+    "action": "ENTERED",
+    "ticker": "GOOGL",
+    "signal": "SELL",
+    "qty": 6,
+    "entry": 296.02,
+    "stop_loss": 301.94,
+    "take_profit": 284.18,
+    "confidence": 75,
+    "position_pct": 2.0,
+    "order_id": "dca28df3-40f0-42f7-9506-3f9082b15906",
+    "timestamp": "2026-03-24 09:44:49.318042"
+  },
+  {
+    "action": "ENTERED",
+    "ticker": "AAPL",
+    "signal": "BUY",
+    "qty": 8,
+    "entry": 246.06,
+    "stop_loss": 241.14,
+    "take_profit": 255.9,
+    "confidence": 90,
+    "position_pct": 2.0,
+    "order_id": "69891ade-3de4-49ca-ab5f-62e152f7d14d",
+    "timestamp": "2026-03-24 10:19:24.245426"
+  },
+  {
+    "action": "ENTERED",
+    "ticker": "NVDA",
+    "signal": "BUY",
+    "qty": 11,
+    "entry": 175.37,
+    "stop_loss": 171.86,
+    "take_profit": 182.38,
+    "confidence": 81,
+    "position_pct": 2.0,
+    "order_id": "bb1fad5c-7ad7-4eb8-be60-683e70a624c9",
+    "timestamp": "2026-03-24 10:19:24.345338"
+  },
+  {
+    "action": "ENTERED",
+    "ticker": "MSFT",
+    "signal": "BUY",
+    "qty": 5,
+    "entry": 374.025,
+    "stop_loss": 366.54,
+    "take_profit": 388.99,
+    "confidence": 74,
+    "position_pct": 2.0,
+    "order_id": "fca9cd6e-0895-45b9-bbcf-5fc694802149",
+    "timestamp": "2026-03-24 10:19:24.446051"
+  },
+  {
+    "action": "ENTERED",
+    "ticker": "META",
+    "signal": "SELL",
+    "qty": 3,
+    "entry": 594.62,
+    "stop_loss": 606.51,
+    "take_profit": 570.84,
+    "confidence": 75,
+    "position_pct": 2.0,
+    "order_id": "3faf48ec-7916-43fc-84e9-33d4f21d65a4",
+    "timestamp": "2026-03-24 10:49:46.415107"
   }
 ]

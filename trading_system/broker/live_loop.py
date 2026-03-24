@@ -171,9 +171,9 @@ def run_loop(mode: BrokerMode, tickers: List[str],
     print(f"""
 ╔═══════════════════════════════════════════════════════╗
 ║  AI TRADING SYSTEM — LIVE LOOP                        ║
-║  Mode    : {mode.upper():12}                             ║
-║  Tickers : {', '.join(tickers[:4]):30}   ║
-║  Capital : ${capital:>10,.0f}                              ║
+║  Mode    : {mode.upper():12}                          ║
+║  Tickers : {(str(len(tickers))+' tickers'):30}        ║
+║  Capital : ${capital:>10,.0f}                         ║
 ╚═══════════════════════════════════════════════════════╝
 """)
 
