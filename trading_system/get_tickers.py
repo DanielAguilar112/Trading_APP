@@ -1,0 +1,36 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
+# S&P 500 tickers (hardcoded - no internet needed)
+tickers = [
+    "AAPL","MSFT","NVDA","AMZN","META","GOOGL","GOOG","BRK-B","LLY","AVGO",
+    "TSLA","WMT","JPM","UNH","XOM","V","MA","COST","HD","PG","JNJ","ABBV",
+    "MRK","CRM","BAC","CVX","NFLX","AMD","KO","PEP","TMO","ACN","MCD","ADBE",
+    "WFC","LIN","CSCO","ABT","TXN","PM","ORCL","GE","QCOM","INTU","IBM","CAT",
+    "SPGI","AMGN","ISRG","GS","BKNG","HON","AMAT","RTX","BLK","VRTX","T",
+    "NOW","DE","UBER","LOW","DHR","C","NEE","TJX","SCHW","BA","MS","AXP",
+    "PANW","LRCX","BMY","PLD","MDT","ADI","MU","GILD","SYK","ETN","REGN",
+    "MMC","CB","SO","CI","ELV","DUK","ITW","ZTS","SBUX","AON","CME","FI",
+    "CL","EOG","WM","HUM","FCX","MCO","PH","GEV","MAR","TDG","PSX","OXY",
+    "NSC","EMR","APD","FDX","PCAR","CARR","WELL","MSI","CTAS","TT","SLB",
+    "COF","ICE","ROP","ORLY","GM","F","DXCM","CRWD","MRVL","KLAC","SNPS",
+    "CDNS","FTNT","TEAM","WDAY","SNOW","DDOG","ZS","NET","MDB","OKTA",
+    "ZM","DOCU","BILL","HUBS","VEEV","PAYC","COUP","ESTC","CFLT","U",
+    "PLTR","RBLX","COIN","HOOD","SOFI","AFRM","UPST","OPEN","WISH",
+    "NKE","LULU","TGT","BURL","ROST","DG","DLTR","KR","SYY","TSN",
+    "GIS","K","CPB","MKC","CAG","HRL","SJM","MNST","KHC","CHD",
+    "PFE","MRNA","BNTX","NVAX","BIIB","VRTX","ALNY","SGEN","BMRN",
+    "XOM","CVX","COP","EOG","PXD","MPC","VLO","PSX","HES","DVN",
+    "NEE","DUK","SO","D","AEP","EXC","SRE","PCG","ED","ES",
+    "SPY","QQQ","IWM","DIA","GLD","SLV","USO","TLT","HYG","VXX",
+    "XLF","XLK","XLE","XLV","XLI","XLU","XLY","XLP","XLB","XLRE"
+]
+
+# Remove duplicates
+tickers = list(dict.fromkeys(tickers))
+print(f"Total tickers: {len(tickers)}")
+
+with open("sp500_tickers.txt", "w") as f:
+    f.write("\n".join(tickers))
+print("Saved to sp500_tickers.txt")

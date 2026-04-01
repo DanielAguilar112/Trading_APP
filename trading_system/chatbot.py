@@ -21,23 +21,26 @@ app.config["SECRET_KEY"] = "trading_secret"
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode="threading")
 conversation_history = []
 
-SYSTEM_PROMPT = """You are an AI trading assistant with real-time access to a live algorithmic trading system. Be helpful, direct and concise. You help with signals, portfolio performance, model accuracy, settings, and trading education. Never guarantee profits. System data is injected automatically with each message."""
+SYSTEM_PROMPT = """You are an AI trading assistant with real-time access to a live algorithmic trading system. Be helpful, direct and concise. You help with signals, portfolio performance, model accuracy, settings, and trading education. Never guarantee profits. Keep responses short and clear. System data is injected with each message."""
 
 def get_signals_data():
     try:
         f = OUTPUT_DIR / "signals_latest.json"
         return json.loads(f.read_text()) if f.exists() else {"status": "No signals yet"}
-    except: return {"status": "Error reading signals"}
+    except:
+        return {"status": "Error reading signals"}
 
 def get_portfolio_data():
     try:
         f = OUTPUT_DIR / "dry_run_state.json"
-        if f.exists(): return json.loads(f.read_text())
+        if f.exists():
+            return json.loads(f.read_text())
         f2 = OUTPUT_DIR / "trade_journal.json"
         if f2.exists():
             t = json.loads(f2.read_text())
             return {"trade_count": len(t), "recent": t[-3:]}
-    except: pass
+    except:
+        pass
     return {"status": "No portfolio data yet"}
 
 def get_journal_data():
@@ -46,7 +49,8 @@ def get_journal_data():
         if f.exists():
             t = json.loads(f.read_text())
             return t[-20:] if t else []
-    except: pass
+    except:
+        pass
     return []
 
 def get_model_data():
@@ -55,72 +59,94 @@ def get_model_data():
         if f.exists():
             d = json.loads(f.read_text())
             return {k: {"trained": v.get("last_trained","")[:10],
-                        "acc": {m: round(mv.get("accuracy",0)*100,1) for m,mv in v.get("metrics",{}).items()}}
+                        "acc": {m: round(mv.get("accuracy",0)*100,1)
+                                for m,mv in v.get("metrics",{}).items()}}
                     for k,v in list(d.items())[:6]}
-    except: pass
+    except:
+        pass
     return {}
 
 def get_context():
     signals = get_signals_data()
-    sig_list = [{"ticker":s.get("ticker"),"action":s.get("action"),"conf":s.get("confidence_pct"),"p_up":s.get("p_up")}
-                for s in signals.get("signals",[])] if "signals" in signals else []
+    sig_list = []
+    if "signals" in signals:
+        for s in signals["signals"]:
+            sig_list.append({
+                "ticker": s.get("ticker"),
+                "action": s.get("action"),
+                "conf": s.get("confidence_pct"),
+                "p_up": s.get("p_up")
+            })
     journal = get_journal_data()
-    return f"""SYSTEM ({datetime.now().strftime('%Y-%m-%d %H:%M')}):
-Config: {len(WATCHLIST)} tickers, threshold={CONFIDENCE_THRESHOLD*100:.0f}%, capital=${CAPITAL:,.0f}, max_risk={cfg.MAX_RISK_PER_TRADE*100:.0f}%
-Signals: {json.dumps(sig_list)}
-Portfolio: {json.dumps(get_portfolio_data())}
-Recent trades ({len(journal)} total): {json.dumps(journal[-5:])}
-Models: {json.dumps(get_model_data())}"""
+    return (
+        "SYSTEM (" + datetime.now().strftime('%Y-%m-%d %H:%M') + "):\n"
+        "Config: " + str(len(WATCHLIST)) + " tickers, threshold=" + str(round(CONFIDENCE_THRESHOLD*100)) + "%, capital=$" + str(CAPITAL) + "\n"
+        "Signals: " + json.dumps(sig_list) + "\n"
+        "Portfolio: " + json.dumps(get_portfolio_data()) + "\n"
+        "Recent trades (" + str(len(journal)) + " total): " + json.dumps(journal[-5:]) + "\n"
+        "Models: " + json.dumps(get_model_data())
+    )
 
 def chat(user_msg):
     global conversation_history
-    conversation_history.append({"role":"user","content": user_msg + "\n\n[DATA]\n" + get_context()})
+    conversation_history.append({"role": "user", "content": user_msg + "\n\n[DATA]\n" + get_context()})
     if len(conversation_history) > 20:
         conversation_history = conversation_history[-20:]
     try:
-        resp = ollama.chat(model="llama3",
-                           messages=[{"role":"system","content":SYSTEM_PROMPT}] + conversation_history)
+        resp = ollama.chat(
+            model="llama3",
+            messages=[{"role": "system", "content": SYSTEM_PROMPT}] + conversation_history
+        )
         reply = resp["message"]["content"]
         conversation_history[-1]["content"] = user_msg
-        conversation_history.append({"role":"assistant","content":reply})
+        conversation_history.append({"role": "assistant", "content": reply})
         return reply
     except Exception as e:
         err = str(e)
         if "connect" in err.lower() or "refused" in err.lower():
             return "Ollama is not running. Open the Ollama app from your Windows start menu, then try again."
-        return f"Error: {err}"
+        return "Error: " + err
 
 @app.route("/")
-def index(): return render_template_string(HTML)
+def index():
+    return render_template_string(HTML)
 
 @app.route("/api/signals")
-def api_signals(): return jsonify(get_signals_data())
+def api_signals():
+    return jsonify(get_signals_data())
 
 @app.route("/api/portfolio")
-def api_portfolio(): return jsonify(get_portfolio_data())
+def api_portfolio():
+    return jsonify(get_portfolio_data())
 
 @app.route("/api/journal")
-def api_journal(): return jsonify(get_journal_data())
+def api_journal():
+    return jsonify(get_journal_data())
 
 @app.route("/api/config")
 def api_config():
-    return jsonify({"watchlist":WATCHLIST,"confidence_threshold":CONFIDENCE_THRESHOLD,
-                    "capital":CAPITAL,"max_risk_per_trade":cfg.MAX_RISK_PER_TRADE,
-                    "max_portfolio_heat":cfg.MAX_PORTFOLIO_HEAT})
+    return jsonify({
+        "watchlist": WATCHLIST,
+        "confidence_threshold": CONFIDENCE_THRESHOLD,
+        "capital": CAPITAL,
+        "max_risk_per_trade": cfg.MAX_RISK_PER_TRADE,
+        "max_portfolio_heat": cfg.MAX_PORTFOLIO_HEAT
+    })
 
 @socketio.on("send_message")
 def handle_message(data):
-    msg = data.get("message","").strip()
-    if not msg: return
-    emit("user_message", {"message":msg,"time":datetime.now().strftime("%H:%M")})
-    emit("typing", {"status":True})
+    msg = data.get("message", "").strip()
+    if not msg:
+        return
+    emit("user_message", {"message": msg, "time": datetime.now().strftime("%H:%M")})
+    emit("typing", {"status": True})
     def respond():
         reply = chat(msg)
-        socketio.emit("bot_message", {"message":reply,"time":datetime.now().strftime("%H:%M")})
-        socketio.emit("typing", {"status":False})
+        socketio.emit("bot_message", {"message": reply, "time": datetime.now().strftime("%H:%M")})
+        socketio.emit("typing", {"status": False})
     threading.Thread(target=respond, daemon=True).start()
 
-HTML = '''<!DOCTYPE html>
+HTML = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -136,7 +162,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .hsub{font-size:12px;color:#666;margin-top:1px}
 .badge{background:#0d2818;border:1px solid #1a5c33;color:#00d4aa;font-size:11px;padding:4px 10px;border-radius:20px;display:flex;align-items:center;gap:5px}
 .dot{width:6px;height:6px;border-radius:50%;background:#00d4aa;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .stats{background:#141414;border-bottom:1px solid #222;padding:10px 20px;display:flex;gap:24px;overflow-x:auto}
 .stat{display:flex;flex-direction:column;gap:2px;min-width:fit-content}
 .slabel{font-size:10px;color:#555;text-transform:uppercase;letter-spacing:.05em}
@@ -171,16 +196,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .bub.user{background:#0d2818;border:1px solid #1a5c33;color:#e0e0e0;border-radius:12px 4px 12px 12px}
 .mtime{font-size:10px;color:#444;margin-top:4px}
 .typing{display:flex;gap:4px;padding:12px 14px;background:#1a1a1a;border:1px solid #252525;border-radius:4px 12px 12px 12px;width:fit-content}
-.tdot{width:6px;height:6px;border-radius:50%;background:#00d4aa;animation:t 1.2s infinite}
-.tdot:nth-child(2){animation-delay:.2s}.tdot:nth-child(3){animation-delay:.4s}
-@keyframes t{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+.tdot{width:6px;height:6px;border-radius:50%;background:#00d4aa;animation:tdot 1.2s infinite}
+.tdot:nth-child(2){animation-delay:.2s}
+.tdot:nth-child(3){animation-delay:.4s}
 .iarea{padding:16px 20px;background:#141414;border-top:1px solid #222}
 .iwrap{display:flex;gap:10px;align-items:flex-end}
-.ibox{flex:1;background:#1e1e1e;border:1px solid #2a2a2a;border-radius:10px;padding:10px 14px;color:#e0e0e0;font-size:14px;resize:none;outline:none;font-family:inherit;max-height:120px;line-height:1.5;transition:border-color .15s}
-.ibox:focus{border-color:#00d4aa44}
+.ibox{flex:1;background:#1e1e1e;border:1px solid #2a2a2a;border-radius:10px;padding:10px 14px;color:#e0e0e0;font-size:14px;resize:none;outline:none;font-family:inherit;max-height:120px;line-height:1.5}
 .ibox::placeholder{color:#444}
-.sbtn{width:40px;height:40px;background:linear-gradient(135deg,#00d4aa,#0088ff);border:none;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:opacity .15s}
-.sbtn:hover{opacity:.85}
+.sbtn{width:40px;height:40px;background:linear-gradient(135deg,#00d4aa,#0088ff);border:none;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .sbtn svg{width:16px;height:16px;fill:white}
 .welcome{text-align:center;padding:40px 20px;color:#555}
 .welcome h2{color:#888;font-size:18px;margin-bottom:8px}
@@ -188,6 +211,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .freebadge{background:#1a1a2e;border:1px solid #2a2a5c;color:#6688ff;font-size:11px;padding:4px 10px;border-radius:20px;display:inline-block}
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:2px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes tdot{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
 @media(max-width:768px){.sidebar{display:none}}
 </style>
 </head>
@@ -195,7 +220,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 <div class="header">
   <div style="display:flex;align-items:center">
     <div class="logo">&#9650;</div>
-    <div><div class="htitle">AI Trading Assistant</div><div class="hsub">Llama3 Local &bull; 100% Free</div></div>
+    <div>
+      <div class="htitle">AI Trading Assistant</div>
+      <div class="hsub">Llama3 Local &bull; 100% Free</div>
+    </div>
   </div>
   <div class="badge"><div class="dot"></div>Live</div>
 </div>
@@ -216,13 +244,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <div class="ssec">
       <div class="stitle">Quick Actions</div>
       <div class="qbtns">
-        <button class="qbtn" onclick="q('What are the current signals?')">&#128200; Current signals</button>
-        <button class="qbtn" onclick="q('How is my portfolio performing?')">&#128181; Portfolio P&amp;L</button>
-        <button class="qbtn" onclick="q('Show me recent trades and how they did')">&#128203; Recent trades</button>
-        <button class="qbtn" onclick="q('How accurate are the AI models right now?')">&#129302; Model accuracy</button>
-        <button class="qbtn" onclick="q('Should I change settings to improve performance?')">&#9881; Optimize settings</button>
-        <button class="qbtn" onclick="q('Why is the system not trading right now?')">&#10067; Why not trading?</button>
-        <button class="qbtn" onclick="q('Which tickers look most promising right now?')">&#128269; Best opportunities</button>
+        <button class="qbtn" onclick="quickMsg('What are the current signals?')">&#128200; Current signals</button>
+        <button class="qbtn" onclick="quickMsg('How is my portfolio performing?')">&#128181; Portfolio P&amp;L</button>
+        <button class="qbtn" onclick="quickMsg('Show me recent trades and how they did')">&#128203; Recent trades</button>
+        <button class="qbtn" onclick="quickMsg('How accurate are the AI models right now?')">&#129302; Model accuracy</button>
+        <button class="qbtn" onclick="quickMsg('Should I change settings to improve performance?')">&#9881; Optimize settings</button>
+        <button class="qbtn" onclick="quickMsg('Why is the system not trading right now?')">&#10067; Why not trading?</button>
+        <button class="qbtn" onclick="quickMsg('Which tickers look most promising right now?')">&#128269; Best opportunities</button>
       </div>
     </div>
   </div>
@@ -238,62 +266,130 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <div class="iarea">
       <div class="iwrap">
         <textarea class="ibox" id="inp" placeholder="Ask about signals, portfolio, trades..." rows="1"></textarea>
-        <button class="sbtn" onclick="send()"><svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button>
+        <button class="sbtn" id="sendBtn"><svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button>
       </div>
     </div>
   </div>
 </div>
 <script>
-const socket=io();
-const inp=document.getElementById('inp');
-inp.addEventListener('input',()=>{inp.style.height='auto';inp.style.height=Math.min(inp.scrollHeight,120)+'px'});
-inp.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}});
-function send(){const m=inp.value.trim();if(!m)return;socket.emit('send_message',{message:m});inp.value='';inp.style.height='auto'}
-function q(m){socket.emit('send_message',{message:m})}
-socket.on('user_message',d=>addMsg('user',d.message,d.time));
-socket.on('bot_message',d=>{rmTyping();addMsg('bot',d.message,d.time)});
-socket.on('typing',d=>{if(d.status)showTyping();else rmTyping()});
-function addMsg(role,text,time){
-  const w=document.querySelector('.welcome');if(w)w.remove();
-  const msgs=document.getElementById('msgs');
-  const d=document.createElement('div');d.className='msg '+role;
-  const fmt=text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    .replace(/\n/g,'<br>').replace(/[*][*](.*?)[*][*]/g,'<strong>$1</strong>')
-    .replace(/`(.*?)`/g,'<code style="background:#252525;padding:1px 5px;border-radius:3px;font-size:12px">$1</code>');
-  d.innerHTML=`<div class="av ${role}">${role==='bot'?'&#129302;':'&#128100;'}</div><div><div class="bub ${role}">${fmt}</div><div class="mtime">${time}</div></div>`;
-  msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;
+var socket = io();
+var inp = document.getElementById('inp');
+var sendBtn = document.getElementById('sendBtn');
+
+inp.addEventListener('input', function() {
+  inp.style.height = 'auto';
+  inp.style.height = Math.min(inp.scrollHeight, 120) + 'px';
+});
+
+inp.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    doSend();
+  }
+});
+
+sendBtn.addEventListener('click', function() {
+  doSend();
+});
+
+function doSend() {
+  var m = inp.value.trim();
+  if (!m) return;
+  socket.emit('send_message', {message: m});
+  inp.value = '';
+  inp.style.height = 'auto';
 }
-function showTyping(){rmTyping();const msgs=document.getElementById('msgs');const d=document.createElement('div');d.className='msg bot';d.id='typ';d.innerHTML='<div class="av bot">&#129302;</div><div class="typing"><div class="tdot"></div><div class="tdot"></div><div class="tdot"></div></div>';msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight}
-function rmTyping(){const e=document.getElementById('typ');if(e)e.remove()}
-async function loadStats(){
-  try{
-    const[c,s,j]=await Promise.all([fetch('/api/config').then(r=>r.json()),fetch('/api/signals').then(r=>r.json()),fetch('/api/journal').then(r=>r.json())]);
-    document.getElementById('sConf').textContent=(c.confidence_threshold*100).toFixed(0)+'%';
-    document.getElementById('sWatch').textContent=c.watchlist.length+' tickers';
-    document.getElementById('sTrades').textContent=j.length||0;
-    if(s.signals){
-      const buys=s.signals.filter(x=>x.action==='BUY').length;
-      const sells=s.signals.filter(x=>x.action==='SELL').length;
-      document.getElementById('sSig').textContent=buys+'B / '+sells+'S';
-      const top=s.signals.filter(x=>x.action!=='HOLD').sort((a,b)=>b.confidence_pct-a.confidence_pct).slice(0,8);
-      document.getElementById('sigList').innerHTML=top.length===0?'<div style="color:#555;font-size:12px">No actionable signals</div>':top.map(x=>`<div class="sig"><span class="sticker">${x.ticker}</span><div class="sinfo"><span class="sconf">${x.confidence_pct}%</span><span class="pill pill-${x.action.toLowerCase()}">${x.action}</span></div></div>`).join('');
+
+function quickMsg(m) {
+  socket.emit('send_message', {message: m});
+}
+
+socket.on('user_message', function(d) { addMsg('user', d.message, d.time); });
+socket.on('bot_message', function(d) { rmTyping(); addMsg('bot', d.message, d.time); });
+socket.on('typing', function(d) { if (d.status) showTyping(); else rmTyping(); });
+
+function addMsg(role, text, time) {
+  var w = document.querySelector('.welcome');
+  if (w) w.remove();
+  var msgs = document.getElementById('msgs');
+  var d = document.createElement('div');
+  d.className = 'msg ' + role;
+  var fmt = text.split('&').join('&amp;').split('<').join('&lt;').split('>').join('&gt;').split('\n').join('<br>');
+  d.innerHTML = '<div class="av ' + role + '">' + (role === 'bot' ? '&#129302;' : '&#128100;') + '</div>'
+    + '<div><div class="bub ' + role + '">' + fmt + '</div>'
+    + '<div class="mtime">' + time + '</div></div>';
+  msgs.appendChild(d);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showTyping() {
+  rmTyping();
+  var msgs = document.getElementById('msgs');
+  var d = document.createElement('div');
+  d.className = 'msg bot';
+  d.id = 'typ';
+  d.innerHTML = '<div class="av bot">&#129302;</div><div class="typing"><div class="tdot"></div><div class="tdot"></div><div class="tdot"></div></div>';
+  msgs.appendChild(d);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function rmTyping() {
+  var e = document.getElementById('typ');
+  if (e) e.remove();
+}
+
+function loadStats() {
+  fetch('/api/config').then(function(r) { return r.json(); }).then(function(c) {
+    document.getElementById('sConf').textContent = Math.round(c.confidence_threshold * 100) + '%';
+    document.getElementById('sWatch').textContent = c.watchlist.length + ' tickers';
+  }).catch(function(){});
+
+  fetch('/api/journal').then(function(r) { return r.json(); }).then(function(j) {
+    document.getElementById('sTrades').textContent = j.length || 0;
+  }).catch(function(){});
+
+  fetch('/api/signals').then(function(r) { return r.json(); }).then(function(s) {
+    if (s.signals) {
+      var buys = s.signals.filter(function(x) { return x.action === 'BUY'; }).length;
+      var sells = s.signals.filter(function(x) { return x.action === 'SELL'; }).length;
+      document.getElementById('sSig').textContent = buys + 'B / ' + sells + 'S';
+      var top = s.signals
+        .filter(function(x) { return x.action !== 'HOLD'; })
+        .sort(function(a,b) { return b.confidence_pct - a.confidence_pct; })
+        .slice(0, 8);
+      var list = document.getElementById('sigList');
+      if (top.length === 0) {
+        list.innerHTML = '<div style="color:#555;font-size:12px">No actionable signals</div>';
+      } else {
+        list.innerHTML = top.map(function(x) {
+          return '<div class="sig"><span class="sticker">' + x.ticker + '</span>'
+            + '<div class="sinfo"><span class="sconf">' + x.confidence_pct + '%</span>'
+            + '<span class="pill pill-' + x.action.toLowerCase() + '">' + x.action + '</span></div></div>';
+        }).join('');
+      }
     }
-  }catch(e){}
-  try{
-    const p=await fetch('/api/portfolio').then(r=>r.json());
-    if(p.account){
-      const val=p.account.portfolio_value,pnl=p.account.unrealized_pnl;
-      document.getElementById('sPort').textContent='$'+Number(val).toLocaleString();
-      const el=document.getElementById('sPnl');
-      el.textContent=(pnl>=0?'+':'')+' $'+Math.abs(Number(pnl)).toFixed(0);
-      el.className='sval '+(pnl>=0?'g':'r');
-    }else{document.getElementById('sPort').textContent='$100,000';document.getElementById('sPnl').textContent='Paper'}
-  }catch(e){}
+  }).catch(function(){});
+
+  fetch('/api/portfolio').then(function(r) { return r.json(); }).then(function(p) {
+    if (p.account) {
+      var val = p.account.portfolio_value;
+      var pnl = p.account.unrealized_pnl;
+      document.getElementById('sPort').textContent = '$' + Number(val).toLocaleString();
+      var el = document.getElementById('sPnl');
+      el.textContent = (pnl >= 0 ? '+' : '') + '$' + Math.abs(Number(pnl)).toFixed(0);
+      el.className = 'sval ' + (pnl >= 0 ? 'g' : 'r');
+    } else {
+      document.getElementById('sPort').textContent = '$100,000';
+      document.getElementById('sPnl').textContent = 'Paper';
+    }
+  }).catch(function(){});
 }
-loadStats();setInterval(loadStats,30000);
+
+loadStats();
+setInterval(loadStats, 30000);
 </script>
 </body>
-</html>'''
+</html>"""
 
 if __name__ == "__main__":
     print("""

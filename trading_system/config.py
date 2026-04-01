@@ -7,13 +7,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 # ── Assets to watch ──────────────────────────────────────────────────────────
-WATCHLIST = [
-    "AAPL", "NVDA", "MSFT", "GOOGL", "META", "AMZN", "AMD", "TSLA",
-    "CRM", "ORCL", "ADBE", "INTC", "QCOM", "JPM", "BAC", "GS", "V",
-    "MA", "JNJ", "UNH", "PFE", "ABBV", "QQQ", "IWM", "DIA", "XLF",
-    "XLK", "COIN", "PLTR", "RBLX", "UBER", "LYFT", "NFLX", "SNOW",
-    "MSTR", "SPY"
-]
+WATCHLIST = ['AAPL', 'ABBV', 'ABT', 'ACN', 'ADBE', 'ADI', 'AEP', 'AFRM', 'ALNY', 'AMAT', 'AMD', 'AMGN', 'AMZN', 'AON', 'APD', 'APP', 'ARKK', 'ARM', 'AVGO', 'AXP', 'BA', 'BABA', 'BAC', 'BIIB', 'BILL', 'BKNG', 'BLK', 'BMRN', 'BMY', 'BNTX', 'BRK-B', 'BURL', 'C', 'CAG', 'CARR', 'CAT', 'CB', 'CDNS', 'CFLT', 'CHD', 'CI', 'CL', 'CME', 'COF', 'COIN', 'COP', 'COST', 'CPB', 'CRM', 'CRWD', 'CSCO', 'CTAS', 'CVX', 'D', 'DDOG', 'DE', 'DG', 'DHR', 'DIA', 'DLTR', 'DOCU', 'DUK', 'DVN', 'DXCM', 'ED', 'EEM', 'EFA', 'ELV', 'EMR', 'EOG', 'ES', 'ESTC', 'ETN', 'EXC', 'F', 'FCX', 'FDX', 'FTNT', 'FXI', 'GE', 'GEV', 'GILD', 'GIS', 'GLD', 'GM', 'GOOG', 'GOOGL', 'GS', 'HD', 'HON', 'HOOD', 'HRL', 'HUBS', 'HUM', 'HYG', 'IBM', 'ICE', 'INTC', 'INTU', 'ISRG', 'ITW', 'IWM', 'JNJ', 'JPM', 'KHC', 'KLAC', 'KO', 'KR', 'KWEB', 'LCID', 'LIN', 'LLY', 'LOW', 'LRCX', 'LULU', 'LYFT', 'MA', 'MAR', 'MCD', 'MCO', 'MDB', 'MDT', 'META', 'MKC', 'MNST', 'MPC', 'MRK', 'MRNA', 'MRVL', 'MS', 'MSFT', 'MSI', 'MSTR', 'MU', 'NEE', 'NET', 'NFLX', 'NIO', 'NKE', 'NOW', 'NSC', 'NVAX', 'NVDA', 'OKTA', 'OPEN', 'ORCL', 'ORLY', 'OXY', 'PANW', 'PAYC', 'PCAR', 'PCG', 'PEP', 'PFE', 'PG', 'PH', 'PLD', 'PLTR', 'PM', 'PSX', 'QCOM', 'QQQ', 'RBLX', 'REGN', 'RIVN', 'ROKU', 'ROP', 'ROST', 'RTX', 'SBUX', 'SCHW', 'SHOP', 'SJM', 'SLB', 'SLV', 'SMCI', 'SNOW', 'SNPS', 'SO', 'SOFI', 'SPGI', 'SPY', 'SRE', 'SYK', 'SYY', 'T', 'TDG', 'TEAM', 'TGT', 'TJX', 'TLT', 'TMO', 'TSLA', 'TSM', 'TSN', 'TT', 'TTD', 'TXN', 'U', 'UBER', 'UNH', 'UPST', 'USO', 'V', 'VEEV', 'VLO', 'VRTX', 'VXX', 'WDAY', 'WELL', 'WFC', 'WM', 'WMT', 'XLB', 'XLE', 'XLF', 'XLI', 'XLK', 'XLP', 'XLRE', 'XLU', 'XLV', 'XLY', 'XOM', 'ZM', 'ZS', 'ZTS']
 # ── Data ──────────────────────────────────────────────────────────────────────
 DATA_LOOKBACK_DAYS   = 365 * 2   # training window
 PREDICTION_HORIZON   = 3         # trading days ahead (24-72 h)
