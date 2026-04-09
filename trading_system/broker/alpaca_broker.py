@@ -233,7 +233,7 @@ class AlpacaBroker:
             a_side = AlpacaSide.BUY if side.lower() == "buy" else AlpacaSide.SELL
             req = MarketOrderRequest(
                 symbol=ticker, qty=qty, side=a_side,
-                time_in_force=TimeInForce.DAY,
+                time_in_force=TimeInForce.GTC,
                 order_class=OrderClass.BRACKET,
                 take_profit=TakeProfitRequest(limit_price=take_profit),
                 stop_loss=StopLossRequest(stop_price=stop_loss),
